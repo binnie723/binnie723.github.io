@@ -112,7 +112,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "binnie723@gm.gist.ac.kr"
+      #url: "binnie723@gm.gist.ac.kr"
     - label: "Notion"
       icon: "fas fa-fw fa-link"
       #url: "https://bush-acai-887.notion.site/HOME-2681ea78e6fe4fe8b0beb2faf327e63d"
