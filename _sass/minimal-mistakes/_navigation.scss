@@ -471,7 +471,7 @@
     color: inherit;
     font-size: 1em;
     font-family: $cute;
-    color: mix(#fff,$primary-color,60%);
+    color: rgba(#fff,0.35);
 
     &:hover {
       text-decoration: underline;
