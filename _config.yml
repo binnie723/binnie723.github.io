@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "Today I Learned"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "승빈 Binnie Shin"
+name                     : "Seung Bin Shin"
 description              : "GIST EECS + AI"
 url                      : "https://binnie723.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "승빈 Binnie Shin"
   avatar           : #"/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/cat.jpg"
-  bio              : "GIST EECS + AI"
+  bio              : "  GIST EECS + AI"
   location         : "Seoul, South Korea"
   email            :
   links:
