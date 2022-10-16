@@ -1,7 +1,7 @@
 ---
 title: "System Programming"
 layout: archive
-permalink: categories/system-programming
+permalink: categories/systemprogramming
 author_profile: true
 sidebar_main: true
 ---
