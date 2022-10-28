@@ -80,9 +80,9 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 
 프로세스 스트림의 방향을 지정해주는 역할 
 
-- cmd **> output** : 명령어를 output으로 저장
-- cmd **< input** : 파일로 부터 입력 받기
-- cmd **>> append** : 명령어를 output 마지막에 추가
+- cmd  >  output : 명령어를 output으로 저장
+- cmd  <  input : 파일로 부터 입력 받기
+- cmd  >>  append : 명령어를 output 마지막에 추가 
 <br/>   
 
 ## Files and Directories
@@ -96,10 +96,10 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
     
 
 - 기본적으로 제공되는 ****디렉토리
-    - `**.**` : current directory (디렉토리 생성시 자동으로 포함)
-    - `**..**` : parent directory (디렉토리 생성시 자동으로 포함)
-    - `**/**` : root directory
-    - `**~**` : home directory
+    - `.` : current directory (디렉토리 생성시 자동으로 포함)
+    - `..` : parent directory (디렉토리 생성시 자동으로 포함)
+    - `/` : root directory
+    - `~` : home directory
     
 - 디렉토리 경로 : **절대 경로, 상대 경로**
     - absolute path : 루트 디렉토리(`/`) 기준  ex. */home/binnie/a.txt*
@@ -133,8 +133,8 @@ ex. simple-shell with multiple arguments
     LINUX 프로그램을 실행하면 3개의 표준 스트림이 자동적으로 열림
     
     - Standard Input (***stdin***, file descriptor 0) : 터미널에서 받아오는 입력
-    - Standard output ****(***stdout***, file descriptor 1) : 정상적인 실행 결과를 터미널에 출력
-    - Standard error ****(***stderr***, file descriptor 2) :  비정상 종료시 터미널로 반환
+    - Standard output (***stdout***, file descriptor 1) : 정상적인 실행 결과를 터미널에 출력
+    - Standard error (***stderr***, file descriptor 2) :  비정상 종료시 터미널로 반환
 - **File Descriptors**
     
     프로세스가 특정 파일에 접근할 때, **파일을 분류**하기 위해 제공되는 고유 식별자 (non-negative integer)
@@ -161,13 +161,13 @@ ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`
 
 -> clock time(총), user CPU time(in user), system CPU time(in kernel)
 
-- `**time ls**` : 명령어의 running time을 확인
+- `time ls` : 명령어의 running time을 확인
     
     ![image](https://user-images.githubusercontent.com/86834982/198584583-4d188436-33c3-46d4-a1a4-bf38f48ecf11.png)
     
 
-- `**ps**` : 현재 돌아가는 process 확인
-- `**pstree**` : process tree 출력하는 명령어
+- `ps` : 현재 돌아가는 process 확인
+- `pstree` : process tree 출력하는 명령어
 
 ![image](https://user-images.githubusercontent.com/86834982/198584610-0db24036-0e4e-44d6-b612-25c635c1b38c.png){: width="80%" height="80%"}
 <br/>   
