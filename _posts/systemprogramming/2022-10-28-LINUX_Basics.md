@@ -39,7 +39,7 @@ UNIX는 multiuser와 multitasking을 지원하는 운영체제
 
 ex. 학교 서버의 /etc/passwd 파일   
 
-![image](https://user-images.githubusercontent.com/86834982/198583452-ab328d2a-6a84-4fe8-a389-687b1a09bbb6.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198583452-ab328d2a-6a84-4fe8-a389-687b1a09bbb6.png){: width="80%" height="80%"}  
 username : password : userid : groupid : : homedirectory : shellprogram  
 
 <br/> 
@@ -53,7 +53,7 @@ username : password : userid : groupid : : homedirectory : shellprogram
     
     특정 파일 공유 및 접근이 가능하고, 최대 17개의 그룹까지 등록 가능 (/etc/group)
     
-    유저와 그룹 아이디는 특정 파일에 대한 **접근 권한을 확인**하는데 사용
+    유저와 그룹 아이디는 특정 파일에 대한 **접근 권한을 확인**하는데 사용  
     
 <br/> 
 ## Shell Prompt
@@ -62,7 +62,8 @@ username : password : userid : groupid : : homedirectory : shellprogram
 
 - UNIX에서 사용되는 대표적인 shell
 
-![image](https://user-images.githubusercontent.com/86834982/198583923-640be25a-df7c-4f08-8dea-fd49763ab528.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198583923-640be25a-df7c-4f08-8dea-fd49763ab528.png){: width="80%" height="80%"}  
+
 <br/> 
 ## Pipes
 
@@ -74,7 +75,7 @@ interprocess communication의 방법으로, **파이프( | )**를 통해 프로�
 ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파이프를 이용한 실행)
 
 ![image](https://user-images.githubusercontent.com/86834982/198584018-95b06d06-8133-48ab-9e9d-5958aa810161.png){: width="80%" height="80%"}
-<br/>   
+<br/>     
 
 ## Redirection
 
@@ -82,7 +83,7 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 
 - cmd  >  output : 명령어를 output으로 저장
 - cmd  <  input : 파일로 부터 입력 받기
-- cmd  >>  append : 명령어를 output 마지막에 추가 
+- cmd  >>  append : 명령어를 output 마지막에 추가   
 <br/>   
 
 ## Files and Directories
@@ -107,7 +108,7 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 
 - **디렉토리 파일 목록 보기 : `ls -la`**
     
-    ![image](https://user-images.githubusercontent.com/86834982/198584173-13a92c17-2aac-4942-9a3f-505ea72bb8aa.png){: width="80%" height="80%"}  
+    ![image](https://user-images.githubusercontent.com/86834982/198584173-13a92c17-2aac-4942-9a3f-505ea72bb8aa.png){: width="80%" height="80%"}   
     type+permission / links / owner / group / filesize / date / time
     
 
@@ -121,8 +122,8 @@ ex. listing files in ascending order : `ls`를 오름차순으로 구현한 코�
 
 ex. simple-shell with multiple arguments
 
-![image](https://user-images.githubusercontent.com/86834982/198584459-047e3020-c7cb-443d-a0d9-2e6c80999994.png){: width="80%" height="80%"}
-<br/>   
+![image](https://user-images.githubusercontent.com/86834982/198584459-047e3020-c7cb-443d-a0d9-2e6c80999994.png){: width="80%" height="80%"}  
+<br/>     
 
 ## Standard I/O
 
@@ -150,8 +151,8 @@ ex. simple-shell with multiple arguments
 
 ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`을 구현한 코드
 
-![image](https://user-images.githubusercontent.com/86834982/198584474-ec9290bf-4dd4-490c-81a8-14b4984749c4.png){: width="80%" height="80%"}
-<br/>  
+![image](https://user-images.githubusercontent.com/86834982/198584474-ec9290bf-4dd4-490c-81a8-14b4984749c4.png){: width="80%" height="80%"}  
+<br/>   
 
 ## UNIX Time Values
 
@@ -174,3 +175,4 @@ ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`
 
 <br/> <br/> 
 @Advanced Programming in the UNIX environment, Third edition 내용을 참고함
+<br/> 
