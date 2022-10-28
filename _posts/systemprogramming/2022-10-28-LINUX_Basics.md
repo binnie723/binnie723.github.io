@@ -14,23 +14,22 @@ last_modified_at: 2022-10-28
 ---
 
 
-
-### LINUX/UNIX
+<br/> 
+## LINUX/UNIX
 
 **multiuser based**로 많은 유저들이 동시에 접근 가능한 운영체제
 
 - **Advantages** : multi-user based, simple utilities, extendible, easily-converted
-- **Other UNIX variants** : MacOS, iOS, Darwin 등
+- **Other UNIX variants** : MacOS, iOS, Darwin 등  
 <br/> 
-### **UNIX Architecture**
 
-**운영체제(OS)** : 컴퓨터 하드웨어를 관리하고 프로그램을 실행하는 환경을 제공해주는 소프트웨어   
+## UNIX Architecture
 
-→ kernel과 컴퓨터에 다양한 기능들을 제공하는 소프트웨어를 모두 포함하는 개념   
+**운영체제(OS)** : 컴퓨터 하드웨어를 관리하고 프로그램을 실행하는 환경을 제공해주는 소프트웨어fh, kernel과 컴퓨터에 다양한 기능들을 제공하는 소프트웨어를 모두 포함하는 개념   
 
 - UNIX 운영체제 구조 : **kernel(핵심)**, system calls, shell, libraries, applications
 
-![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="70%" height="70%"}  
 <br/> 
 ### Logging in to UNIX system
 
@@ -41,10 +40,10 @@ UNIX는 multiuser와 multitasking을 지원하는 운영체제
 ex. 학교 서버의 /etc/passwd 파일   
 
 ![image](https://user-images.githubusercontent.com/86834982/198583452-ab328d2a-6a84-4fe8-a389-687b1a09bbb6.png){: width="80%" height="80%"}
+username : password : userid : groupid : : homedirectory : shellprogram  
 
-username : password : userid : groupid : : homedirectory : shellprogram
 <br/> 
-### User Identification
+## User Identification
 
 - **User ID** : 로그인한 유저를 나타내는 아이디(숫자)
     
@@ -54,10 +53,10 @@ username : password : userid : groupid : : homedirectory : shellprogram
     
     특정 파일 공유 및 접근이 가능하고, 최대 17개의 그룹까지 등록 가능 (/etc/group)
     
-    → 유저와 그룹 아이디는 특정 파일에 대한 **접근 권한을 확인**하는데 사용
+    유저와 그룹 아이디는 특정 파일에 대한 **접근 권한을 확인**하는데 사용
     
 <br/> 
-### Shell Prompt
+## Shell Prompt
 
 쉘은 사용자 입력으로 받은 명령어를 해석하고 실행해주는 인터페이스로, kernel과 사용자를 연결함
 
@@ -65,29 +64,30 @@ username : password : userid : groupid : : homedirectory : shellprogram
 
 ![image](https://user-images.githubusercontent.com/86834982/198583923-640be25a-df7c-4f08-8dea-fd49763ab528.png){: width="80%" height="80%"}
 <br/> 
-### Pipes
+## Pipes
 
 프로세스가 나열, 어떤 프로세스의 표준 출력이 다른 프로세스의 표준 입력으로 들어가는 것
-
-→ interprocess communication의 방법으로, **파이프( | )**를 통해 프로그램을 연속으로 수행 가능 
+interprocess communication의 방법으로, **파이프( | )**를 통해 프로그램을 연속으로 수행 가능 
 
 ![image](https://user-images.githubusercontent.com/86834982/198583944-1b3034cf-5174-44f3-b72c-da917cc976f9.png){: width="80%" height="80%"}
 
 ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파이프를 이용한 실행)
 
 ![image](https://user-images.githubusercontent.com/86834982/198584018-95b06d06-8133-48ab-9e9d-5958aa810161.png){: width="80%" height="80%"}
-<br/> 
-### Redirection
+<br/>   
+
+## Redirection
 
 프로세스 스트림의 방향을 지정해주는 역할 
 
 - cmd **> output** : 명령어를 output으로 저장
 - cmd **< input** : 파일로 부터 입력 받기
 - cmd **>> append** : 명령어를 output 마지막에 추가
-<br/> 
-### Files and Directories
+<br/>   
 
-![image](https://user-images.githubusercontent.com/86834982/198584033-970e305b-37fb-4d82-a4be-361f4c9163ab.png){: width="80%" height="80%"}
+## Files and Directories
+
+![image](https://user-images.githubusercontent.com/86834982/198584033-970e305b-37fb-4d82-a4be-361f4c9163ab.png){: width="70%" height="70%"}
 
 - 루트 디렉토리를 중심으로 구성된 **tree 구조**
 - UNIX는 모든 장치 및 디렉토리를 **파일로 취급** !
@@ -108,13 +108,12 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 - **디렉토리 파일 목록 보기 : `ls -la`**
     
     ![image](https://user-images.githubusercontent.com/86834982/198584173-13a92c17-2aac-4942-9a3f-505ea72bb8aa.png)
-    
     type+permission / links / owner / group / filesize / date / time
     
 
 ex. ***simple-ls.c*** : `ls` 명령어를 구현한 코드
 
-![image](https://user-images.githubusercontent.com/86834982/198584192-73fe1a62-6a16-434d-973b-3dc6ddaf1cba.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198584192-73fe1a62-6a16-434d-973b-3dc6ddaf1cba.png){: width="75%" height="75%"}
 
 ex. listing files in ascending order : `ls`를 오름차순으로 구현한 코드 
 
@@ -123,8 +122,9 @@ ex. listing files in ascending order : `ls`를 오름차순으로 구현한 코�
 ex. simple-shell with multiple arguments
 
 ![image](https://user-images.githubusercontent.com/86834982/198584459-047e3020-c7cb-443d-a0d9-2e6c80999994.png){: width="80%" height="80%"}
-<br/> 
-### Standard I/O
+<br/>   
+
+## Standard I/O
 
 모든 UNIX 프로그램은 3가지의 표준 스트림과 표준 파일 디스크립터를 제공
 
@@ -151,14 +151,15 @@ ex. simple-shell with multiple arguments
 ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`을 구현한 코드
 
 ![image](https://user-images.githubusercontent.com/86834982/198584474-ec9290bf-4dd4-490c-81a8-14b4984749c4.png){: width="80%" height="80%"}
-<br/> 
-### UNIX Time Values
+<br/>  
+
+## UNIX Time Values
 
 **Process** : 현재 실행되고 있는 컴퓨터 프로그램, 프로그램이 메모리에 올라간 상태 
 
 **Process time** : 프로세스 관련한 시간 정보로, clock ticks(clock_t)에 의해 측정
 
-→ clock time(총), user CPU time(in user), system CPU time(in kernel)
+-> clock time(총), user CPU time(in user), system CPU time(in kernel)
 
 - `**time ls**` : 명령어의 running time을 확인
     
@@ -169,5 +170,7 @@ ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`
 - `**pstree**` : process tree 출력하는 명령어
 
 ![image](https://user-images.githubusercontent.com/86834982/198584610-0db24036-0e4e-44d6-b612-25c635c1b38c.png){: width="80%" height="80%"}
+<br/>   
+
 
 @Advanced Programming in the UNIX environment, Third edition 내용을 참고함
