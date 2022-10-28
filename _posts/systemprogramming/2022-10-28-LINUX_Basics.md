@@ -29,7 +29,7 @@ last_modified_at: 2022-10-28
 
 - UNIX 운영체제 구조 : **kernel(핵심)**, system calls, shell, libraries, applications
 
-![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="70%" height="70%"}    
+![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="80%" height="80%"}    
 <br/> 
 
 ## Logging in to UNIX system
@@ -63,6 +63,8 @@ username : password : userid : groupid : : homedirectory : shellprogram
 
 - UNIX에서 사용되는 대표적인 shell
 
+![image](https://user-images.githubusercontent.com/86834982/198584610-0db24036-0e4e-44d6-b612-25c635c1b38c.png){: width="80%" height="80%"}
+
 ![image](https://user-images.githubusercontent.com/86834982/198583923-640be25a-df7c-4f08-8dea-fd49763ab528.png){: width="80%" height="80%"}  
 
 <br/> 
@@ -71,11 +73,13 @@ username : password : userid : groupid : : homedirectory : shellprogram
 프로세스가 나열, 어떤 프로세스의 표준 출력이 다른 프로세스의 표준 입력으로 들어가는 것
 interprocess communication의 방법으로, **파이프( | )**를 통해 프로그램을 연속으로 수행 가능 
 
-![image](https://user-images.githubusercontent.com/86834982/198583944-1b3034cf-5174-44f3-b72c-da917cc976f9.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198583923-640be25a-df7c-4f08-8dea-fd49763ab528.png){: width="80%" height="80%"}  
+
 
 ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파이프를 이용한 실행)
 
-![image](https://user-images.githubusercontent.com/86834982/198584018-95b06d06-8133-48ab-9e9d-5958aa810161.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198583944-1b3034cf-5174-44f3-b72c-da917cc976f9.png){: width="80%" height="80%"}
+
 <br/>     
 
 ## Redirection
@@ -88,7 +92,7 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 <br/>   
 
 ## Files and Directories
-
+![image](https://user-images.githubusercontent.com/86834982/198584018-95b06d06-8133-48ab-9e9d-5958aa810161.png){: width="85%" height="85%"}
 ![image](https://user-images.githubusercontent.com/86834982/198584033-970e305b-37fb-4d82-a4be-361f4c9163ab.png){: width="70%" height="70%"}
 
 - 루트 디렉토리를 중심으로 구성된 **tree 구조**
@@ -115,11 +119,13 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 
 ex. ***simple-ls.c*** : `ls` 명령어를 구현한 코드
 
-![image](https://user-images.githubusercontent.com/86834982/198584192-73fe1a62-6a16-434d-973b-3dc6ddaf1cba.png){: width="75%" height="75%"}
+
+    ![image](https://user-images.githubusercontent.com/86834982/198584173-13a92c17-2aac-4942-9a3f-505ea72bb8aa.png){: width="80%" height="80%"}   
+
 
 ex. listing files in ascending order : `ls`를 오름차순으로 구현한 코드 
+![image](https://user-images.githubusercontent.com/86834982/198584474-ec9290bf-4dd4-490c-81a8-14b4984749c4.png){: width="80%" height="80%"}  
 
-![image](https://user-images.githubusercontent.com/86834982/198584436-eae6a354-0c88-42df-aa70-0ff149449c48.png){: width="80%" height="80%"}
 
 ex. simple-shell with multiple arguments
 
@@ -151,8 +157,8 @@ ex. simple-shell with multiple arguments
     
 
 ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`을 구현한 코드
+![image](https://user-images.githubusercontent.com/86834982/198584192-73fe1a62-6a16-434d-973b-3dc6ddaf1cba.png){: width="75%" height="75%"}
 
-![image](https://user-images.githubusercontent.com/86834982/198584474-ec9290bf-4dd4-490c-81a8-14b4984749c4.png){: width="80%" height="80%"}  
 <br/>   
 
 ## UNIX Time Values
@@ -164,14 +170,14 @@ ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`
 -> clock time(총), user CPU time(in user), system CPU time(in kernel)
 
 - `time ls` : 명령어의 running time을 확인
+    ![image](https://user-images.githubusercontent.com/86834982/198584459-047e3020-c7cb-443d-a0d9-2e6c80999994.png){: width="80%" height="80%"}  
     
-    ![image](https://user-images.githubusercontent.com/86834982/198584583-4d188436-33c3-46d4-a1a4-bf38f48ecf11.png){: width="80%" height="80%"}
     
 
 - `ps` : 현재 돌아가는 process 확인
 - `pstree` : process tree 출력하는 명령어
 
-![image](https://user-images.githubusercontent.com/86834982/198584610-0db24036-0e4e-44d6-b612-25c635c1b38c.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198584436-eae6a354-0c88-42df-aa70-0ff149449c48.png){: width="80%" height="80%"}
 <br/>   
 
 <br/> <br/> 
