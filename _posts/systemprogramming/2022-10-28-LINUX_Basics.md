@@ -1,5 +1,5 @@
 ---
-title:  "LINUX Basics 기본 개념들" 
+title:  "LINUX Basics 기본 개념" 
 
 categories:
   - System Programming
@@ -81,9 +81,9 @@ ex. *reverse.c* : 파이프로 문자열을 거꾸로 출력하는 코드
 
 프로세스 스트림의 방향을 지정해주는 역할 
 
-- cmd  '>'  output : 명령어를 output으로 저장
-- cmd  '<'  input : 파일로 부터 입력 받기
-- cmd  '>>'  append : 명령어를 output 마지막에 추가   
+- cmd  >  output : 명령어를 output으로 저장
+- cmd  <  input : 파일로 부터 입력 받기
+- cmd  > >  append : 명령어를 output 마지막에 추가   
 <br/>   
 
 ## Files and Directories
@@ -107,6 +107,7 @@ ex. *reverse.c* : 파이프로 문자열을 거꾸로 출력하는 코드
     - relative path : 현재 디렉토리(`.`) 기준  ex. *usr/bin/xv*
 
 - **디렉토리 파일 목록 보기 : `ls -la`**
+
 ![image](https://user-images.githubusercontent.com/86834982/198584033-970e305b-37fb-4d82-a4be-361f4c9163ab.png){: width="70%" height="70%"}
 type+permission / links / owner / group / filesize / date / time
     
@@ -129,8 +130,7 @@ ex. simple-shell with multiple arguments
 모든 UNIX 프로그램은 3가지의 표준 스트림과 표준 파일 디스크립터를 제공
 
 **Standard Stream** 입출력 통로
-    
-    LINUX 프로그램을 실행하면 3개의 표준 스트림이 자동적으로 열림
+LINUX 프로그램을 실행하면 3개의 표준 스트림이 자동적으로 열림
     
 - Standard Input (***stdin***, file descriptor 0) : 터미널에서 받아오는 입력
 - Standard output (***stdout***, file descriptor 1) : 정상적인 실행 결과를 터미널에 출력
@@ -146,7 +146,7 @@ ex. simple-shell with multiple arguments
 : `getc(2)`, `putc(2)`, `fopen(2)`, `fread(2)`, `fwrite(2)`
     
 
-ex. ***cat.c*** : `cat`명령어를 구현한 코드
+ex. ***cat.c*** : `cat`명령어를 구현한 코드  
 ![image](https://user-images.githubusercontent.com/86834982/198584192-73fe1a62-6a16-434d-973b-3dc6ddaf1cba.png){: width="75%" height="75%"}
 
 <br/>   
