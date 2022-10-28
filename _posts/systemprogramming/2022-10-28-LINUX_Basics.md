@@ -20,7 +20,7 @@ last_modified_at: 2022-10-28
 **multiuser based**로 많은 유저들이 동시에 접근 가능한 운영체제
 
 - **Advantages** : multi-user based, simple utilities, extendible, easily-converted
-- **Other UNIX variants** : MacOS, iOS, Darwin 등  
+- **Other UNIX variants** : MacOS, iOS, Darwin 등    
 <br/> 
 
 ## UNIX Architecture
@@ -29,9 +29,10 @@ last_modified_at: 2022-10-28
 
 - UNIX 운영체제 구조 : **kernel(핵심)**, system calls, shell, libraries, applications
 
-![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="70%" height="70%"}  
+![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="70%" height="70%"}    
 <br/> 
-### Logging in to UNIX system
+
+## Logging in to UNIX system
 
 UNIX는 multiuser와 multitasking을 지원하는 운영체제  
 
