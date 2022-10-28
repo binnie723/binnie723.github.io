@@ -107,7 +107,7 @@ ex. *reverse.c* : 입력 받은 문자열을 거꾸로 출력하는 코드 (파�
 
 - **디렉토리 파일 목록 보기 : `ls -la`**
     
-    ![image](https://user-images.githubusercontent.com/86834982/198584173-13a92c17-2aac-4942-9a3f-505ea72bb8aa.png)
+    ![image](https://user-images.githubusercontent.com/86834982/198584173-13a92c17-2aac-4942-9a3f-505ea72bb8aa.png){: width="80%" height="80%"}  
     type+permission / links / owner / group / filesize / date / time
     
 
@@ -163,7 +163,7 @@ ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`
 
 - `time ls` : 명령어의 running time을 확인
     
-    ![image](https://user-images.githubusercontent.com/86834982/198584583-4d188436-33c3-46d4-a1a4-bf38f48ecf11.png)
+    ![image](https://user-images.githubusercontent.com/86834982/198584583-4d188436-33c3-46d4-a1a4-bf38f48ecf11.png){: width="80%" height="80%"}
     
 
 - `ps` : 현재 돌아가는 process 확인
@@ -172,5 +172,5 @@ ex. ***cat.c*** : 파일의 내용을 화면에 출력하는 명령어 `**cat**`
 ![image](https://user-images.githubusercontent.com/86834982/198584610-0db24036-0e4e-44d6-b612-25c635c1b38c.png){: width="80%" height="80%"}
 <br/>   
 
-
+<br/> <br/> 
 @Advanced Programming in the UNIX environment, Third edition 내용을 참고함
