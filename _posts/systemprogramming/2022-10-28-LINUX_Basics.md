@@ -1,5 +1,5 @@
 ---
-title:  "LINUX Basics 기본 개념" 
+title:  "Linux Basics 기본 개념" 
 
 categories:
   - System Programming
@@ -10,7 +10,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-10-28
-last_modified_at: 2022-10-28
+last_modified_at: 2022-10-31
 ---
 
 
