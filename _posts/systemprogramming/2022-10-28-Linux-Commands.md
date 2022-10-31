@@ -1,5 +1,5 @@
 ---
-title:  "따로 정리하는 Linux Commands" 
+title:  "[따로 정리하는] Linux Commands" 
 
 categories:
   - System Programming
@@ -75,7 +75,7 @@ last_modified_at: 2022-10-30
 
 `uniq [-c] file` : 중복되는 항목을 제거 (-c : 중복 갯수도 출력)
 
-`cut [-d]“delimiter” [-f]num *file*` : 파일을 tokenize (-d: 자르는 기준)(-f : 몇번째 대상)
+`cut [-d]“delimiter” [-f]num file` : 파일을 tokenize (-d: 자르는 기준)(-f : 몇번째 대상)
 
 `grep [-r] "word" file` : 해당 단어를 포함하는 모든 라인 출력 (-r: recursive, 디렉토리 전체 찾기)
 
@@ -87,11 +87,11 @@ last_modified_at: 2022-10-30
 
 `chmod` : permission 변경 (‘r’ = read(4)  ‘w’ = write(2)  ‘x’ = execute(1))
 
-   -> `chmod u=rwx,g=rx,o=r file1.txt`  (= or + 모두 사용 가능, 공백 불가능)
+ -> `chmod u=rwx,g=rx,o=r file1.txt`  (= or + 모두 사용 가능, 공백 불가능)
 
 `chown` : file owner 또는 group 변경  
 
-   -> `sudo chown root:root file2.txt` (root로 변경하는 경우 sudo 사용!)
+ -> `sudo chown root:root file2.txt` (root로 변경하는 경우 sudo 사용!)
 
   
 <br/>   
@@ -99,26 +99,26 @@ last_modified_at: 2022-10-30
 
 ‘`*`’ : 없을 수도 있고 있을 수도 있고
 
-   -> `ls *.txt` : 모든 txt 파일     `ls n*` : n으로 시작하는 모든 파일* 
+ -> `ls *.txt` : 모든 txt 파일     `ls n*` : n으로 시작하는 모든 파일* 
 
 ‘?’ : 1 글자
 
-   -> `ls *.???` *3글자 확장자를 가진 모든 파일*    `ls ?.*`  파일이름이 1글자인 모든 파일
+ -> `ls *.???` *3글자 확장자를 가진 모든 파일*    `ls ?.*`  파일이름이 1글자인 모든 파일
 
 `[ ]` : 안에 있는 문자 중 하나 (or)
 
-   -> `ls [M-P]` : M부터 P사이 문자 중 하나로 시작하는 모든 파일
+ -> `ls [M-P]` : M부터 P사이 문자 중 하나로 시작하는 모든 파일
 
 `{ }` : 안에 있는 문자 모두 포함 (and)
 
-   -> `ls pic1.{txt, jpg, bmp}` : pic1.txt, pic1.jpg, pic1.bmp
+ -> `ls pic1.{txt, jpg, bmp}` : pic1.txt, pic1.jpg, pic1.bmp
 
 `\` : special character를 보호하는 역할 
 
-   -> `ls \*.txt` = `ls *.txt`
+ -> `ls \*.txt` = `ls *.txt`
 
-
-“exec” system 함수는 wildcards 인식 불가 
+<br/> 
+💡 “exec” system 함수는 wildcards 인식 불가 
 {: .notice--primary} 
 
 
