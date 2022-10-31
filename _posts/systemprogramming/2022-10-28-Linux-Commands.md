@@ -15,7 +15,7 @@ last_modified_at: 2022-10-30
   
 
 <br/>   
-###Basic Commands
+### Basic Commands
 
 `pwd` : 현재 디렉토리 경로
 
@@ -25,9 +25,7 @@ last_modified_at: 2022-10-30
 
 `date` / `cal` : 지금 날짜와 시간 / 오늘 달력 
 
-`history` : 내가 사용했던 명령어 보기 
-
- `!줄번호`  치면 지난 명령어 다시 실행
+`history` : 내가 사용했던 명령어 보기 (`!줄번호`  치면 지난 명령어 다시 실행)
 
 `clear` : 터미널 화면 지우기 
 
@@ -35,7 +33,7 @@ last_modified_at: 2022-10-30
 
   
 <br/>    
-###Directory commands**
+### Directory commands
 
 `mkdir dir` : 디렉토리 생성
 
@@ -53,7 +51,7 @@ last_modified_at: 2022-10-30
 
   
 <br/>   
-###File commands
+### File commands
 
 `touch file` : 파일 생성 
 
@@ -71,7 +69,7 @@ last_modified_at: 2022-10-30
 
   
 <br/>   
-###File 응용 commands
+### File 응용 commands
 
 `sort [-r] file` : 파일을 줄 단위로 오름차순 정렬  (-r : 내림차순)(파일을 바꾸지는 않음!)
 
@@ -85,45 +83,47 @@ last_modified_at: 2022-10-30
 
   
 <br/>   
-###Change permission, owner
+### Change permission, owner
 
 `chmod` : permission 변경 (‘r’ = read(4)  ‘w’ = write(2)  ‘x’ = execute(1))
 
-    `chmod u=rwx,g=rx,o=r file1.txt`  (= or + 모두 사용 가능, 공백 불가능)
+   -> `chmod u=rwx,g=rx,o=r file1.txt`  (= or + 모두 사용 가능, 공백 불가능)
 
 `chown` : file owner 또는 group 변경  
 
-    `sudo chown root:root file2.txt` (root로 변경하는 경우 sudo 사용!)
+   -> `sudo chown root:root file2.txt` (root로 변경하는 경우 sudo 사용!)
 
   
 <br/>   
-###Wildcard : Pattern matching
+### Wildcard : Pattern matching
 
 ‘`*`’ : 없을 수도 있고 있을 수도 있고
 
-    `ls *.txt` : 모든 txt 파일     `ls n*` : n으로 시작하는 모든 파일* 
+   -> `ls *.txt` : 모든 txt 파일     `ls n*` : n으로 시작하는 모든 파일* 
 
 ‘?’ : 1 글자
 
-    `ls *.???` *3글자 확장자를 가진 모든 파일*    `ls ?.*`  파일이름이 1글자인 모든 파일
+   -> `ls *.???` *3글자 확장자를 가진 모든 파일*    `ls ?.*`  파일이름이 1글자인 모든 파일
 
 `[ ]` : 안에 있는 문자 중 하나 (or)
 
-    `ls [M-P]` : M부터 P사이 문자 중 하나로 시작하는 모든 파일
+   -> `ls [M-P]` : M부터 P사이 문자 중 하나로 시작하는 모든 파일
 
 `{ }` : 안에 있는 문자 모두 포함 (and)
 
-    `ls pic1.{txt, jpg, bmp}` : pic1.txt, pic1.jpg, pic1.bmp
+   -> `ls pic1.{txt, jpg, bmp}` : pic1.txt, pic1.jpg, pic1.bmp
 
 `\` : special character를 보호하는 역할 
 
-    `ls \*.txt` = `ls *.txt`
+   -> `ls \*.txt` = `ls *.txt`
 
--> “exec” system 함수는 wildcards 인식 불가 
+
+“exec” system 함수는 wildcards 인식 불가 
+{: .notice--primary} 
 
 
 <br/>   
-###Vim commands (mode)
+### Vim commands (mode)
 
 ![image](https://user-images.githubusercontent.com/86834982/198948309-3885db44-5002-4376-be19-465272d423db.png){: width="80%" height="80%"}
 
