@@ -9,8 +9,8 @@ tags:
 toc: true
 toc_sticky: true
 
-date: 2022-10-31
-last_modified_at: 2022-10-31
+date: 2022-11-01
+last_modified_at: 2022-11-01
 ---
 
 <br/>   
@@ -19,15 +19,15 @@ last_modified_at: 2022-10-31
 - **Shell** : kernel 과 user 사이의 인터페이스
 - **Shell Script** : shell command들의 집합, collection
     
-    -> task 자동화, 사용하기 쉬움, portable, transparency 
+   -> task 자동화, 사용하기 쉬움, portable, transparency 
     
 <br/> 
 ### Running Shell Script
 
  **Hashbang #!** : 맨 위쪽 상단에 **어떤 쉘을 사용할 것인지** 정의
     
-    -> bash shell 사용 : `#!/bin/bash`,  sh shell 사용 : `#!/bin/sh` 
-    
+  -> bash shell 사용 : `#!/bin/bash`,  sh shell 사용 : `#!/bin/sh` 
+ <br/>    
  Shell Script 실행 방법
   - **권한 부여**하고 실행 :  `chmod a+x scriptname` 후 `./scriptname`
   - **새로운 shell**에서 실행 : `bash scriptname`
@@ -55,7 +55,7 @@ last_modified_at: 2022-10-31
     
     -> 주로 프로그램에 대한 정보를 제공할 때 사용, 프로그램 실행시 환경 변수 설정 
     
-    -> **`env`, `printenv`** 명령어로 현재 저장된 환경변수 목록 확인
+    -> `env`, `printenv`명령어로 현재 저장된 환경변수 목록 확인
     
 - **Shell variable** : 해당 shell 안에서만 값을 유지
     - Global variable : shell script 내에 모든 줄에서 값을 유지
@@ -82,7 +82,7 @@ last_modified_at: 2022-10-31
 - **Variable naming** : letter나 _로 시작, 대소문자 구분, 숫자 사용 가능(맨 앞 제외), special character 사용 불가
 - `$PATH` : 명령어를 실행할 때, shell은 PATH에 등록된 경로에 있는 디렉토리에 해당 프로그램이 있는지 검색
     
-    -> 자주 실행하는 프로그램을 저장해놓는 편이 좋음, ex. `PATH=$PATH:/home/binnie/myfolder`
+    -> 자주 실행하는 프로그램을 저장해놓는 편이 좋음,  ex. `PATH=$PATH:/home/binnie/myfolder`
     
 <br/> 
 ### Arrays
@@ -112,9 +112,9 @@ read -a arr
 <br/> 
 ### Quotation
 
-- Single Qutataton **`‘‘`** : **literally** 문자열을 출력  → ‘$myvar’
-- Double quotation **`“”`** : **semantically** 문자열을 출력  → “hello”
-- Back Quotation **````** : **command substitution**, `$( )`와 같은 기능
+- Single Qutataton `‘‘` : **literally** 문자열을 출력  → ‘$myvar’
+- Double quotation `“”` : **semantically** 문자열을 출력  → “hello”
+- Back Quotation ```` : **command substitution**, `$( )`와 같은 기능
     
     -> `type -a`, `command -V` : 사용할 수 있는 built-in commands 확인
     
@@ -160,7 +160,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     
     `sort array.txt > array2.txt` : 출력 스트림을 파일로 설정
     
-- **Here document** << : tag가 들어올 때까지 넣은 입력이 입력 스트림에 들어간다
+- **Here document** < < : tag가 들어올 때까지 넣은 입력이 입력 스트림에 들어간다
     
     ```bash
     cat << EOF
@@ -173,7 +173,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     ```
     
     - EOF : End of File의 약자로 **파일 종료 코드**를 의미, 리눅스에서는 ctrl+D
-
+<br/>
 ---
 
 <br/> 
@@ -218,8 +218,9 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     | $@ | 모든 parameters 전부               | 각각 문자열로 출력 |
     | $? | 최근에 실행한 명령어 값 |  |
     | $$ | 현재 프로세스 pid |  |
-
-- Logical Operations : **!  not**,  [[  **&&  and**,  **||  or**  ]],   **-a  and**,  **-o  or**
+<br/>
+- Logical Operations : !  not,  [[  &&  and, ||  or  ]],   -a  and,  -o  or
+<br/>
 - Relational Operations
     
     
@@ -248,7 +249,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     - ***-s** **-z** file* : 파일의 크기가 0보다 큰지, 0인지
 
   
-  <br/> 
+<br/> 
 ### Flow Control : For, While, Until loop
 
 - **for 반복문** 사용하기
@@ -260,7 +261,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
         command-list
     done 
     ```
-    
+    <br/>
     ex. for 문으로 array와 list의 element를 하나씩 불러와서 출력 
     
     ![image](https://user-images.githubusercontent.com/86834982/198944440-0094da46-b807-48cd-befc-9f224efb25e1.png){: width="80%" height="80%"}
@@ -294,20 +295,20 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
 <br/> 
 ### Operations for loop
 
-- **`shift** n` : n만큼 뒤로 이동시키는 명령어, default n은 1로 설정됨
+- `shift n` : n만큼 뒤로 이동시키는 명령어, default n은 1로 설정됨
     
-    → 작동 방식 : $2 → $1, 기존의 $1 argument는 삭제
+    -> 작동 방식 : $2 → $1, 기존의 $1 argument는 삭제
     
     ex.  4, 5, 6을 입력하고 shift 1을 실행시킨 결과 
     
     ![image](https://user-images.githubusercontent.com/86834982/198944450-cce4798f-0735-4e05-b023-6dbcbd38c1b6.png){: width="80%" height="80%"}
     
 
-- **break, continue** : iteration을 멈추고 나가거나, 멈추고 다음으로 넘어가는 구문
+- **break문** : iteration을 멈추고 나가는 구문 
 
 ![image](https://user-images.githubusercontent.com/86834982/198944529-c93cd415-0a99-43df-b70b-cc209f674d8c.png){: width="80%" height="80%"}
 
-    continue문 : 다음 iteration으로 이동
+- **continue문** : 다음 iteration으로 이동하는 구문
 
 ![image](https://user-images.githubusercontent.com/86834982/198944529-c93cd415-0a99-43df-b70b-cc209f674d8c.png){: width="80%" height="80%"}
 
@@ -347,7 +348,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     
     wordlist 하나를 선택할 수 있는 옵션을 주고, 선택한 것을 적용한 command 수행
     
-    → 조건문을 나갈 때까지 **loop가 반복**된다 (^C or ^D)
+    -> 조건문을 나갈 때까지 **loop가 반복**된다 (^C or ^D)
     
     ```bash
     PS3="input message: "  #select 명령어에서 제공하는 프롬프트 메시지
@@ -356,7 +357,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     	commands 
     done
     ```
-    
+<br/>
     ex.  select 문 : 사용자가 선택한 파일을 private 파일로 권한 변경 
     
     ![image](https://user-images.githubusercontent.com/86834982/198944656-c059b324-eaab-4274-89cf-b9716ee110a7.png){: width="80%" height="80%"}
@@ -367,7 +368,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
 
 shell script 내에서 **함수 선언**하기
 
-→ 참조되기 전에 선언되어야 함, 주로 shell script 시작 부분에 위치
+-> 참조되기 전에 선언되어야 함, 주로 shell script 시작 부분에 위치
 
 ```bash
 function function_name {  # function keyword 사용하는 경우
@@ -386,7 +387,7 @@ function_name () {         # keyword 대신 bracket 사용하는 경우
     
     ![image](https://user-images.githubusercontent.com/86834982/198944761-da0fbc37-4029-463a-b73e-ededd0ab16eb.png){: width="80%" height="80%"}
     
-
+<br/>
 - **함수 return 값 반환하기** : `**return** [n]` (n : 0-255)
     - 정수 외에 다른 값 리턴 : **standard output(echo)** 또는 **global variable** 사용
     - 리턴 값을 받아오기 : `**$?**` 또는 `var=$(function)` 사용
@@ -395,7 +396,7 @@ function_name () {         # keyword 대신 bracket 사용하는 경우
     
     ![image](https://user-images.githubusercontent.com/86834982/198944683-9ad135ee-1f8a-439b-b019-31b33fcbe935.png){: width="80%" height="80%"}
     
-
+<br/>
 - **Recursion** **재귀 함수** : **자기 자신을 호출**하는 경우 (no limit)
     
     최대한 재귀 함수를 사용하지 않는 편이 좋음 
@@ -418,11 +419,11 @@ UNIX에서 특정 signal을 통해 프로세스를 멈추게 하는 것이 가�
 - -9 : kill
 - no argument : terminate
 
-- **Trap 설정**하기 : `trap ‘handler commands’ signals`
+**Trap 설정**하기 : `trap ‘handler commands’ signals`
     
     1, 2 등의 signal을 받아도 terminate 하지 않고 특정 명령어를 대신 수행 
     
-- **Trap 리셋**하기 : `trap signals`
+**Trap 리셋**하기 : `trap signals`
     
     수행할 command 지정하지 않으면 원래의 default handler로 돌아감 
     
@@ -431,7 +432,7 @@ ex.  trap을 설정하고 signal을 부여했을 때 나타나는 결과
 
 ![image](https://user-images.githubusercontent.com/86834982/198944845-fd7cb543-ab96-4878-a941-49a7f3080431.png){: width="80%" height="80%"}
 
-→  다른 터미널에서 signal을 발생시킨 결과 : **terminate 하지 않음** 
+->  다른 터미널에서 signal을 발생시킨 결과 : **terminate 하지 않음** 
 
 ![image](https://user-images.githubusercontent.com/86834982/198944847-6581dacc-0506-4393-98fb-a3752a5284ac.png){: width="80%" height="80%"}
 
@@ -453,7 +454,7 @@ shell script를 디버깅하는데 사용되는 명령어
     #!/bin/bash -xv  
     # -> shell script 전체를 디버깅 모드로 설정 
     ```
-    
+<br/>
 <br/> 
 @Advanced Programming in the UNIX environment, Third edition 내용을 참고함
   
