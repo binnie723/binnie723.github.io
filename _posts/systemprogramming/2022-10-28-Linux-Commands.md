@@ -115,9 +115,9 @@ last_modified_at: 2022-10-30
 
 `\` : special character를 보호하는 역할 
 
- -> `ls \*.txt` = `ls *.txt`
-
-<br/> 
+ -> `ls \*.txt` == `ls *.txt`
+<br/>
+ 
 💡 “exec” system 함수는 wildcards 인식 불가 
 {: .notice--primary} 
 
