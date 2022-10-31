@@ -1,5 +1,5 @@
 ---
-title:  "2. Tools in Linux : make, gdb, patch" 
+title:  "[2] Tools in Linux : make, gdb, patch" 
 
 categories:
   - System Programming

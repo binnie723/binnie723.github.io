@@ -1,5 +1,5 @@
 ---
-title:  "3. Shell Programming 문법" 
+title:  "[3] Shell Programming 문법" 
 
 categories:
   - System Programming

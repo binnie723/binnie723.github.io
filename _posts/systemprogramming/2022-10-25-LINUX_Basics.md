@@ -1,5 +1,5 @@
 ---
-title:  "1. Linux Basics 기본 개념" 
+title:  "[1] Linux Basics 기본 개념" 
 
 categories:
   - System Programming
