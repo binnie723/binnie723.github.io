@@ -27,7 +27,7 @@ last_modified_at: 2022-10-28
 
 **운영체제(OS)** : 컴퓨터 하드웨어를 관리하고 프로그램을 실행하는 환경을 제공해주는 소프트웨어fh, kernel과 컴퓨터에 다양한 기능들을 제공하는 소프트웨어를 모두 포함하는 개념   
 
-UNIX 운영체제 구조 : **kernel(핵심)**, system calls, shell, applications
+UNIX 운영체제 구조 : **kernel(핵심)**, system calls, shell, applications  
 ![image](https://user-images.githubusercontent.com/86834982/198583431-2ec1bc6d-0a56-48f9-b906-6a6ed31373ce.png){: width="80%" height="80%"}  
   
 <br/> 
@@ -163,8 +163,8 @@ clock time(총), user CPU time(user), system CPU time(kernel)
     ![image](https://user-images.githubusercontent.com/86834982/198584459-047e3020-c7cb-443d-a0d9-2e6c80999994.png){: width="80%" height="80%"}  
     
 
-`ps` : 현재 돌아가는 process 확인
-`pstree` : process tree 출력하는 명령어
+`ps` : 현재 돌아가는 process 확인  
+`pstree` : process tree 출력하는 명령어  
 ![image](https://user-images.githubusercontent.com/86834982/198584436-eae6a354-0c88-42df-aa70-0ff149449c48.png){: width="80%" height="80%"}
 <br/>   
 
