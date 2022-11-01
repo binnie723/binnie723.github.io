@@ -134,7 +134,7 @@ ex. Makefile 파일 예시
 
 - *MACRO_NAME* : 대문자로 이름 지정
 - *${MACRO}, $(MACRO), $MACRO* : 참조할 때 앞에 $ 사용하기
-- `**make** -p` : 미리 정의된 macro를 확인하는 명령어
+- `make -p` : 미리 정의된 macro를 확인하는 명령어
     
     ![image](https://user-images.githubusercontent.com/86834982/198941375-690d7025-2e0c-4bf3-ac32-cffe427a49c0.png){: width="80%" height="80%"}
     
@@ -152,12 +152,12 @@ Makefile 빌딩 과정에서 자주 재사용되는 것들을 기호로 지정, 
 ![image](https://user-images.githubusercontent.com/86834982/198941660-e90977e6-717b-4c58-acff-a37999089424.png){: width="80%" height="80%"}
 
 **Special Macro** 자동 문자
-    
+
     ```makefile
     eval.o : eval.c eval.h
-    			${CC} -c $< -o $@
+            ${CC} -c $< -o $@
     ```
-    
+
   - `$*` :  target의 base이름  *eval*
   - `$@` : 현재 target 파일  *eval.o*
   - `$<` : 첫번째 dependency 파일  *eval.c*
@@ -177,13 +177,13 @@ Makefile 빌딩 과정에서 자주 재사용되는 것들을 기호로 지정, 
 
 LINUX에서 제공하는 무료 GNU debugging 툴 
 
--> syntax 버그는 비교적 찾기 쉽지만 logic 버그의 경우 찾기 어려움 → debugging 필요 !
+-> syntax 버그는 비교적 찾기 쉽지만 logic 버그의 경우 찾기 어려움 -> debugging 필요 !
 
 ex. *fact.c* : 초기값 0부터 펙토리얼을 계산하는 코드 (잘못된 코드)
 
 ![image](https://user-images.githubusercontent.com/86834982/198941666-fc836f01-5410-4c4f-bf6e-185fc3f1bf5b.png){: width="80%" height="80%"}
 
--> `**gdb**`를 사용해서 버그 찾기  
+-> `gdb`를 사용해서 버그 찾기  
 
 ![image](https://user-images.githubusercontent.com/86834982/198941670-cdbb8881-6d67-411e-b7bb-326c2ce4714d.png){: width="80%" height="80%"}
 
