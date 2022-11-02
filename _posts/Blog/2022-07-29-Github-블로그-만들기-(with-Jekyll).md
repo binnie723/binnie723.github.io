@@ -1,5 +1,5 @@
 ---
-title:  "Github 블로그 만들기 (with Jekyll)" 
+title:  "내 Github 블로그 만들기" 
 
 categories:
   - Blog
