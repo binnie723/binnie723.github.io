@@ -35,7 +35,7 @@ last_modified_at: 2022-10-31
 <br/>
     \- user, app (arbitrary) data를 포함하는 파일
 <br/>
-    \- text files : ASCII and Unicode 로 구성된 것   *‘\n’* (*0xa, LF* =10) 로 끝남
+    \- text files : ASCII and Unicode 로 구성된 것  -  *‘\n’* (*0xa, LF* =10) 로 끝남
 <br/>
     \- binary files : 그 외의 나머지  (object files, images)
         
@@ -49,7 +49,7 @@ last_modified_at: 2022-10-31
 <br/><br/>
     \- **Directory Hierarchy** : root 디렉토리(/)를 중심으로 hierarchy 형성
         
-    ![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_12.25.53.png)
+    ![image](https://user-images.githubusercontent.com/86834982/199545979-0a1896e2-d194-478b-bb98-43442c2475ee.png){: width="80%" height="80%"}
 <br/><br/>
 3. **Character special(c), Block special(b) files** 
     - Character special : 입력이 들어온 즉시 바로 수행하는 하드웨어 (terminal)
@@ -69,7 +69,7 @@ last_modified_at: 2022-10-31
 <br/><br/>  
 **File Type Macros**
     
-    ![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.36.56.png)
+    ![image](https://user-images.githubusercontent.com/86834982/199546000-25d32bbc-0260-4c3b-bbbf-88fc5a3faa04.png){: width="80%" height="80%"}
     
 
 <br/>   
@@ -87,7 +87,7 @@ last_modified_at: 2022-10-31
     -> 이러한 메타데이터들을 저장하는 장소 :  Unix/Linux의 i-node table
     
 
-    ![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_12.27.56.png)
+    ![image](https://user-images.githubusercontent.com/86834982/199546193-eb1d2cc1-dba9-492e-b71a-8e4beca29806.png){: width="80%" height="80%"}
 
     -> kernel이 가진 정보들이기 때문에 접근을 위해서는 system call 함수를 사용해야 함 
 
@@ -111,13 +111,13 @@ int fstatat(int fd, const char *path, struct stat *sb); //fd 위치 기준 상�
     -> 터미널에 실행한 화면 
     
 
-    ![  image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_12.51.45.png)
+    ![  image](https://user-images.githubusercontent.com/86834982/199546222-d2baf26f-f68f-4b51-abee-c0c7af4139c6.png){: width="80%" height="80%"}
 
 - `stat -t file` : 더 detail한 정보까지 포함해서 출력하는 명령어
     
     -> 터미널에 실행한 화면
     
-    ![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.03.37.png)
+    ![image](https://user-images.githubusercontent.com/86834982/199546272-4a351182-8c3d-413f-8d16-dce540d34aa7.png){: width="80%" height="80%"}
     
     -> stat mode, hardlink의 갯수, 해당 파일 소유자의  uid, gid, time 등의 정보들을 모두 포함!
 
@@ -129,11 +129,11 @@ int fstatat(int fd, const char *path, struct stat *sb); //fd 위치 기준 상�
     다음과 같은 구조로 정의되어 있음 
     
 
-![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.29.41.png)
+![image](https://user-images.githubusercontent.com/86834982/199546950-49836508-4e10-48f0-acb2-27e207c0bcef.png){: width="80%" height="80%"}
 
 ex. simple-ls 변형 : file의 status까지 확인해볼 수 있는 코드 
 
-![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-27_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_1.39.44.png)
+![image](https://user-images.githubusercontent.com/86834982/199546513-bfb4d226-ba9a-420b-82a1-3f60a7e33139.png){: width="80%" height="80%"}
 
 ---
 <br/>   
@@ -171,7 +171,7 @@ Unix/Linux 시스템에는 특수권한이라고 불리는 **“SetUID, SetGID, 
     - 기존 파일 `drwxrwxrwx` ***777***
     - 특수 권한 파일 `drwsrwsrwt` **7777** (SetUID + SetGID + StickyBit = 7000을 추가)
         
-    ![image](Files%20and%20Directories,%20File%20Systems%201cd6705b00b8487697f13c37c1f9e6a6/%25E1%2584%2590%25E1%2585%25B3%25E1%2586%25A8%25E1%2584%2589%25E1%2585%25AE%25E1%2584%2580%25E1%2585%25AF%25E1%2586%25AB%25E1%2584%2592%25E1%2585%25A1%25E1%2586%25AB_rwx.png)
+    ![image](https://user-images.githubusercontent.com/86834982/199546578-cc3d5911-b898-4620-b099-ec03a74e2afc.png){: width="80%" height="80%"}
         
 이렇게 원래 권한은 **“특수권한, UID, GID, Other”**순으로 4자리 형태이고, 여태까지 `chmod 777`은 특수권한을 생략한 것임. 따라서 원래는 `chmod 0777`이 더 정확한 표현이다.   
         
