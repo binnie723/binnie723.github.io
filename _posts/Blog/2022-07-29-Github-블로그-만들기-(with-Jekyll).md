@@ -37,7 +37,7 @@ Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로,
 ![image](https://user-images.githubusercontent.com/86834982/181670337-1f5b145f-1f10-4362-b977-202d0359022f.png){: width="72%" height="78%"}
 
 <br/> 
-### 2. 생성한 Repository를 내 컴퓨터의 로컬 환경으로 clone 하기
+### 2. 생성한 Repository를 내 컴퓨터 로컬 환경으로 clone 하기
 
 터미널에서 git clone으로 생성한 레포지토리를 컴퓨터 로컬 환경으로 복사해온다.
 
