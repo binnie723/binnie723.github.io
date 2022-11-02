@@ -27,7 +27,7 @@ Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로,
 
 <br/> 
 
-### 1. 블로그 용으로 사용할 새로운 Repository 생성
+### 1. 블로그용으로 사용할 새로운 Repository 생성
 
 먼저 Github에 로그인해서 내 블로그로 사용할 새로운 Repository를 생성한다.  
 
@@ -37,37 +37,33 @@ Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로,
 ![image](https://user-images.githubusercontent.com/86834982/181670337-1f5b145f-1f10-4362-b977-202d0359022f.png){: width="72%" height="78%"}
 
 <br/> 
-### 2. 생성한 Repository를 내 컴퓨터의 Local 환경으로 clone 하기
+### 2. 생성한 Repository를 내 컴퓨터의 로컬 환경으로 clone 하기
 
-터미널에서 cd 명령어로 원하는 위치로 들어간 후, git clone으로 로컬 환경에 생성한 레포지토리를 복사해온다.
+터미널에서 git clone으로 생성한 레포지토리를 컴퓨터 로컬 환경으로 복사해온다.
 
 `git clone https://github.com/binnie723/binnie723.github.io.git`
 
-내 블로그 Repository의 주소는  **Code** -> **HTTPS** 아래에 적혀있는 url 참고
+내 블로그 Repository의 주소 :  **Code** -> **HTTPS** 아래에 적혀있는 url 참고
 
 ![image](https://user-images.githubusercontent.com/86834982/181670802-9bc91f66-18f9-4afa-a75f-66f66a0a884a.png){: width="80%" height="80%"}
 
-다음과 같이 블로그 Repository 폴더가 생성된 것을 확인할 수 있다.  
--> 이제 내 컴퓨터가 블로그 repository와 원격으로 연결되어 원하는 작업을 수행 가능 
+다음과 같이 내 컴퓨터에 블로그 Repository 폴더가 생성된다.  
+-> 이제 내 컴퓨터가 Github와 원격으로 연결되어 원하는 작업 수행 가능 
 
 ![image](https://user-images.githubusercontent.com/86834982/181670860-8937ff5c-aaf9-4996-ba53-3a134851b374.png){: width="72%" height="78%"}
 
-이제 기본적인 블로그 뼈대는 만들었고 필요한 패키지를 다운 받아야 한다.
+
 
 
 <br/> 
 ### 3. Ruby, Jekyll, Bundler 설치
-💡 Mac OS m1 기준
-{: .notice--primary} 
 
+이제 기본적인 블로그 뼈대는 만들었고 필요한 패키지를 다운 받아야 한다.
 
 Jekyll은 Ruby 언어로 구성되어 있기 때문에 먼저 Ruby를 설치해주어야 하고, 그리고 Ruby 관리에 필요한 bundler까지 추가로 설치해주어야 한다. 
 
-아래 사이트에 더 자세한 과정이 나와 있음
 
-🔍  **Jekyll 공식 문서 : [https://jekyllrb.com/docs/installation/macos/](https://jekyllrb.com/docs/installation/macos/)**
-
-💡 homebrew가 사전에 설치되어 있어야 한다!
+💡 Mac OS m1 기준
 {: .notice--primary} 
 먼저 brew 명령어를 사용해서 **rbenv**를 설치
 ```
@@ -97,19 +93,22 @@ source ~/.zshrc
 ```
 gem install jekyll bundler
 ```
+<br/> 더 자세한 설명은 아래 사이트 참고하기 
 
+🔍  **Jekyll 공식 문서 : [https://jekyllrb.com/docs/installation/macos/](https://jekyllrb.com/docs/installation/macos/)**
 
 
 <br/> 
-### 4. Jekyll 테마 파일을 다운 받아서 내 블로그 Repository 폴더에 복사해오기
+<br/> 
+### 4. Jekyll 테마 파일을 다운 받아서 내 블로그 폴더에 복사해오기
 
-이제 블로그 테마를 아래 사이트에서 하나 골라서 복사해오면 된다. 테마들은 아래 지킬 테마 사이트에서 아무거나 골라서 zip 파일을 다운 받으면 된다! (내가 고른건 minimal mistakes 테마)
+이제 블로그에 적용할 테마를 아래 사이트에서 아무거나 하나 골라서 zip 파일로 다운 받으면 된다! (내가 고른건 minimal mistakes 테마)
 
 🔍  **Jekyll 테마 사이트 : [http://themes.jekyllrc.org/](http://jekyllthemes.org/)**
 
 ![image](https://user-images.githubusercontent.com/86834982/181670910-33f009e1-d461-4d7d-be8b-709b472da56b.png){: width="88%" height="88%"}
 
-그리고 다운 받은 zip 파일을 풀고 그 안에 파일이랑 내용물을 **전부** 복사해서 내 블로그 폴더 [`binnie723.github.io`](http://binnie723.github.io) 에 붙여넣기. 
+다운 받은 zip 파일을 풀고 그 안에 내용물을 **전부** 복사해서 내 블로그 폴더 [`binnie723.github.io`](http://binnie723.github.io) 에 붙여넣어주면 된다. 
 
 ![image](https://user-images.githubusercontent.com/86834982/181670954-3701248d-a1b8-4fc9-951b-9185b5d17555.png){: width="80%" height="80%"}
 
@@ -117,7 +116,7 @@ gem install jekyll bundler
 <br/> 
 ### 5. Git push 해서 테마를 최종 반영하기
 
-터미널에 아래와 같이 입력해서 변경 사항들을 전부 push하면 사이트에 적용된 모습을 확인할 수 있다.
+터미널에 아래와 같이 입력해서 변경 사항들을 전부 push하면 사이트에 글이 올라간 것을 확인할 수 있다.
 
 
 `git add .` : 변경 사항을 전부 staging area에 올리기
