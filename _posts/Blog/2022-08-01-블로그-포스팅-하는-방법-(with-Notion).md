@@ -1,5 +1,5 @@
 ---
-title:  "블로그 포스팅하는 방법" 
+title:  "블로그에 글 포스팅하는 방법" 
 
 categories:
   - Blog
