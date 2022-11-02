@@ -22,8 +22,7 @@ last_modified_at: 2022-07-29
 ### Jekyll
 ---
 
-Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로, 마크업 언어(.md)로 작성된 파일을 정적인 웹 페이지로 변환해주는 툴이다. Jekyll로 편리하게 웹 페이지를 작성해서 만들 수 있고, 사용자가 모든 페이지를 직접 커스터마이징할 수 있는 장점이 있다. 그래서 이걸 기반으로 깃허브 블로그를 만들어보려고 한다!
-
+Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로, 마크업 언어(.md)로 작성된 파일을 정적인 웹 페이지로 변환해주는 툴이다. Jekyll로 편리하게 웹 페이지를 작성해서 만들 수 있고, 사용자가 모든 페이지를 직접 커스터마이징할 수 있는 장점이 있다. 그래서 이걸 기반으로 깃허브 블로그 만들어보기로 했다.
 
 <br/> 
 
@@ -121,7 +120,7 @@ gem install jekyll bundler
 
 `git add .` : 변경 사항을 전부 staging area에 올리기
 
-`git commit -m “commit message”` : staging area에 올라온 모든 파일을 원격 서버로 올릴 준비, 확정 짓는 과정
+`git commit -m “commit message”` : staging area에 올라온 모든 파일을 원격 서버로 올릴 준비 과정
 
 `git push origin master` : 커밋한 모든 변경 사항들을 원격 Github 서버에 반영
 
