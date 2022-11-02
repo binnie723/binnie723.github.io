@@ -32,8 +32,7 @@ Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로,
 먼저 Github에 로그인해서 내 블로그로 사용할 새로운 Repository를 생성한다.  
 
 💡 새로운 Repository의 이름은 **반드시!** 다음과 같이 설정   
-{: .notice--primary} 
- `binnie723(계정 이름).github.io`  
+{: .notice--primary}  
 
 ![image](https://user-images.githubusercontent.com/86834982/181670337-1f5b145f-1f10-4362-b977-202d0359022f.png){: width="72%" height="78%"}
 
