@@ -89,8 +89,8 @@
 
       &.current,
       &.current.disabled {
-        color: rgba(#000, 0);
-        background: $primary-color;
+        color: #fff;
+        background: rgba(#000, 0.5);
       }
 
       &.disabled {
