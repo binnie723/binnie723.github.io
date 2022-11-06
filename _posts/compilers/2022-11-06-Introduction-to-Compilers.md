@@ -3,11 +3,11 @@ title: Introduction to Compilers
 subtitle: 
 categories: Compilers
 tags: compiler
-date: 2022-11-06 23:51:28 +0000
-last_modified_at: 2022-11-06 23:51:28 +0000
+date: 2022-11-03 23:51:28 +0000
+last_modified_at: 2022-11-03 23:51:28 +0000
 ---
 
-상태: 강의요약
+
 
 이 수업은 Compiler가 어떻게 동작하는지의 과정을 깊게 다뤄볼 예정. 
 
