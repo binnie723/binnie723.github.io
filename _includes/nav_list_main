@@ -19,12 +19,28 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Compilers" %}
-                <li><a href="/categories/algorithm-compilers" class="">Programming Language Compilers ({{category[1].size}})</a></li>
+                <li><a href="/categories/algorithm-compilers" class="">Compilers ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
           
         <span class="nav__sub-title">ML/DL</span>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "Deep Learning" %}
+                <li><a href="/categories/deep-learning" class="">Deep Learning(이론) ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "Object Detection" %}
+                <li><a href="/categories/object-detection" class="">Object Detection ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+
+        <span class="nav__sub-title">Python</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Web Crawling (with Selenium)" %}
@@ -34,8 +50,8 @@
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "Deep Learning" %}
-                <li><a href="/categories/deep-learning" class="">Deep Learning(기초) ({{category[1].size}})</a></li>
+              {% if category[0] == "Data Analysis (with Numpy, Pandas)" %}
+                <li><a href="/categories/data-analysis" class="">Data Analysis (with Numpy, Pandas) ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
