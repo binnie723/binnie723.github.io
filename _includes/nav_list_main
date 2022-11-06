@@ -19,7 +19,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Compilers" %}
-                <li><a href="/categories/algorithm-compilers" class="">Compilers ({{category[1].size}})</a></li>
+                <li><a href="/categories/compilers" class="">Compilers ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
