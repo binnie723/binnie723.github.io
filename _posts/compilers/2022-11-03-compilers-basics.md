@@ -1,5 +1,5 @@
 ---
-title: Compiler 기본 개념
+title: Compiler 개념 및 과정
 subtitle: 
 categories: Compilers
 tags: [compiler, interpreter, linking]
