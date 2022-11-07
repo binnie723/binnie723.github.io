@@ -14,7 +14,8 @@ last_modified_at: 2022-11-04 01:34:06 +0000
 <br/>
 ### Compilation Phases
 
-1. **Lexical Analysis** : 1. **divides** into individual tokens  2. **verifies tokens**
+
+1. <span style="color:skyblue">**Lexical Analysis** </span>: 1. **divides** into individual tokens  2. **verifies tokens** 
 2. **Syntactic Analysis** : checks the **structure** and **grammar**  
 3. Semantic Analysis : checks the **meaning** of the code  
 4. Optimization : optimizes code for better matching assembly language 
