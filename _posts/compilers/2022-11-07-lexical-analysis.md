@@ -62,7 +62,7 @@ basic building blocks of a program, stored in **symbol tables**
 
 - **Keywords** : specific reserved words, cannot use for identifiers
     
-    ![image](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_10.26.53.png)
+    ![image](https://user-images.githubusercontent.com/86834982/200221520-02a108f3-547f-4cbf-84ee-05970223acb3.png)
     
     ex.→total 32 keywords in C programming language 
     
@@ -127,7 +127,7 @@ ex. s*"Yurim"*  (string)→-→identifier (token)
 <br/>
 **Deterministic Finite Automata (DFA)**
 
-![스크린샷 2022-10-25 오후 4.05.19.png](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.05.19.png)
+![image](https://user-images.githubusercontent.com/86834982/200221540-aa60957b-43dc-4d1d-a58e-a52a488b1d42.pn)
 
 next state could be **only one** state (= deterministic)
 
@@ -151,12 +151,12 @@ $\sum$ - {*a, b*} ,→Language : string starting with  *a*
 
 regular expression : *a* (*a* \| *b*)*
 
-![image](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.28.19.png)
+![image](https://user-images.githubusercontent.com/86834982/200221625-ddf9b69b-d349-46bc-b2e0-1d4a33ffd7ec.png)
 
 <br/>
 **Non Deterministic Finite Automata**
 
-![스크린샷 2022-10-25 오후 4.11.38.png](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_4.11.38.png)
+![image](https://user-images.githubusercontent.com/86834982/200221589-be78ed86-1e47-4ef6-bd0f-9d8a8571e17c.png)
 
 next state could go to **multiple states**
 
@@ -167,7 +167,7 @@ $\sum$ - {*0,1*} ,→Language : binary strings that 2nd last bit is 1
 
 regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
-![스크린샷 2022-10-25 오후 7.03.29.png](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.03.29.png)
+![image](https://user-images.githubusercontent.com/86834982/200221731-de1271fd-10a6-4a6d-aa33-1f3376a7ceb9.png)
 
 <br/>
 **DFA vs. NFA**
@@ -186,7 +186,7 @@ regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
 ex. regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
-![image](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.34.30.png)
+![image](https://user-images.githubusercontent.com/86834982/200221736-df73c9a4-87a0-44f6-9dad-236ed9c3b09c.png)
 
 
 1. Make NFA table 
@@ -212,9 +212,9 @@ ex. regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
 3. convert to DFA diagram
     
-    -> *q0* : starting state,→*q2* : final state  (*q0q2*, *q0q1q2*)
+    -> *q0* : starting state,→states with *q2* : final state  (*q0q2*, *q0q1q2*)
     
-    ![image](2%20Programming%20Language%20Syntax%20a62b7061c92d4887b280bfef6275f4c6/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2022-10-25_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%2592%25E1%2585%25AE_7.34.38.png)
+    ![image](https://user-images.githubusercontent.com/86834982/200221805-b1862730-ff08-41b3-93e5-6b754e60b9db.png)
     
 
 <br/>
