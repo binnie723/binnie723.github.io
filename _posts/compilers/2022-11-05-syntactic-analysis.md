@@ -18,7 +18,7 @@ last_modified_at: 2022-11-05 01:34:06 +0000
 2. <span style="color:skyblue">**Syntactic Analysis**</span> : checks the **structure** and **grammar**
 3. Semantic Analysis : checks the **meaning** of the code  
 4. Optimization : optimizes code for better matching assembly language 
-5. Assembly Code  : intermediate code, assembler를 통해 변환
+5. Assembly Code  : assembler를 통해 변환
 6. Object Code (*.o file*)
 7. Linking (*.exe file*)
 
