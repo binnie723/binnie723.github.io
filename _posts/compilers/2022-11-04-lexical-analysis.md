@@ -1,5 +1,5 @@
 ---
-title: Lexical Analysis
+title: Lexical Analysis 정리
 subtitle: 
 categories: Compilers
 tags: [lexical, analysis, regular, expression]
