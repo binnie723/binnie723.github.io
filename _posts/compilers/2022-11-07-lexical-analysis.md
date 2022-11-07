@@ -62,7 +62,7 @@ basic building blocks of a program, stored in **symbol tables**
 
 - **Keywords** : specific reserved words, cannot use for identifiers
     
-    ![image](https://user-images.githubusercontent.com/86834982/200221520-02a108f3-547f-4cbf-84ee-05970223acb3.png)
+    ![image](https://user-images.githubusercontent.com/86834982/200221520-02a108f3-547f-4cbf-84ee-05970223acb3.png){: width="80%" height="80%"}
     
     ex.→total 32 keywords in C programming language 
     
@@ -127,7 +127,7 @@ ex. s*"Yurim"*  (string)→-→identifier (token)
 <br/>
 **Deterministic Finite Automata (DFA)**
 
-![image](https://user-images.githubusercontent.com/86834982/200221540-aa60957b-43dc-4d1d-a58e-a52a488b1d42.pn)
+![image](https://user-images.githubusercontent.com/86834982/200221540-aa60957b-43dc-4d1d-a58e-a52a488b1d42.png){: width="70%" height="70%"}
 
 next state could be **only one** state (= deterministic)
 
@@ -151,12 +151,12 @@ $\sum$ - {*a, b*} ,→Language : string starting with  *a*
 
 regular expression : *a* (*a* \| *b*)*
 
-![image](https://user-images.githubusercontent.com/86834982/200221625-ddf9b69b-d349-46bc-b2e0-1d4a33ffd7ec.png)
+![image](https://user-images.githubusercontent.com/86834982/200221625-ddf9b69b-d349-46bc-b2e0-1d4a33ffd7ec.png){: width="70%" height="70%"}
 
 <br/>
 **Non Deterministic Finite Automata**
 
-![image](https://user-images.githubusercontent.com/86834982/200221589-be78ed86-1e47-4ef6-bd0f-9d8a8571e17c.png)
+![image](https://user-images.githubusercontent.com/86834982/200221589-be78ed86-1e47-4ef6-bd0f-9d8a8571e17c.png){: width="70%" height="70%"}
 
 next state could go to **multiple states**
 
@@ -167,7 +167,7 @@ $\sum$ - {*0,1*} ,→Language : binary strings that 2nd last bit is 1
 
 regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
-![image](https://user-images.githubusercontent.com/86834982/200221731-de1271fd-10a6-4a6d-aa33-1f3376a7ceb9.png)
+![image](https://user-images.githubusercontent.com/86834982/200221731-de1271fd-10a6-4a6d-aa33-1f3376a7ceb9.png){: width="70%" height="70%"}
 
 <br/>
 **DFA vs. NFA**
@@ -186,7 +186,7 @@ regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
 ex. regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
-![image](https://user-images.githubusercontent.com/86834982/200221736-df73c9a4-87a0-44f6-9dad-236ed9c3b09c.png)
+![image](https://user-images.githubusercontent.com/86834982/200221736-df73c9a4-87a0-44f6-9dad-236ed9c3b09c.png){: width="70%" height="70%"}
 
 
 1. Make NFA table 
@@ -214,7 +214,7 @@ ex. regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
     
     -> *q0* : starting state,→states with *q2* : final state  (*q0q2*, *q0q1q2*)
     
-    ![image](https://user-images.githubusercontent.com/86834982/200221805-b1862730-ff08-41b3-93e5-6b754e60b9db.png)
+    ![image](https://user-images.githubusercontent.com/86834982/200221805-b1862730-ff08-41b3-93e5-6b754e60b9db.png){: width="70%" height="70%"}
     
 
 <br/>
