@@ -1,5 +1,5 @@
 ---
-title: Syntactic Analysis 정리
+title: Syntactic Analysis
 subtitle: 
 categories: Compilers
 use_math: true

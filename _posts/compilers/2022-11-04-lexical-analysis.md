@@ -1,5 +1,5 @@
 ---
-title: Lexical Analysis 정리
+title: Lexical Analysis
 subtitle: 
 categories: Compilers
 tags: [lexical, analysis, regular, expression]
@@ -61,12 +61,10 @@ Lexical Analysis는 문자열을 스캔해서 **token으로 묶어내는 것**. 
 
 basic building blocks of a program, stored in **symbol tables**
 
-- **Keywords** : specific reserved words, cannot use for identifiers
-    
-    ![image](https://user-images.githubusercontent.com/86834982/200221520-02a108f3-547f-4cbf-84ee-05970223acb3.png){: width="80%" height="80%"}
-    
-    ex.→total 32 keywords in C programming language 
-    
+- **Keywords** : specific reserved words, cannot use for identifiers  
+
+    ex.  total 32 keywords in C programming language 
+    ![image](https://user-images.githubusercontent.com/86834982/200221520-02a108f3-547f-4cbf-84ee-05970223acb3.png){: width="80%" height="80%"}   
     -> *main* : not keyword,  왜냐하면 main으로 된 변수를 선언 가능
 - **Identifiers** : naming of variables, functions, which needs memory space
     
@@ -76,8 +74,8 @@ basic building blocks of a program, stored in **symbol tables**
     
     ex.→>→<→+→!→=→{  }→(  )→[ ] 
     
-- Constants : 3, *true,  false*
-- Special characters : slash(/),  quotation marks(””)
+- Constants : 3,→*true,→false*
+- Special characters : slash(/),→quotation marks(””)
 
 <br/>
 ### Regular Expression
@@ -101,21 +99,19 @@ ex. s*"Yurim"*  (string)→-→identifier (token)
 <br/>
 <br/>
 
-- token -> regular expression 나타내기
+ex1. token -> regular expression 나타내기
 
-    digit → *0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9*
+>    digit→->→*0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9*  
+    integer→->→*digit \| digit*  
+    decimal→->→*digit (digit . \| . digit)  digit*
+>
 
-    integer → *digit \| digit*
+ex2. regular expression -> 가능한 문자열 
 
-    decimal → *digit (digit . \| . digit)  digit*
-
-- regular expression -> 가능한 문자열 
-
-    *a* \| *b* → { $\epsilon$, “a”, “b”, “bb”, “bbb”, … }
-
-    (*a* \| *b*)\* → *a*, *b* 로만 이루어진 문자열,  empty string 포함
-
-    (*ab*\* (*c* \| *$\epsilon$*)) → *a* 로 시작하는 문자열,   *b* (zero or more),  *c* (zero or one)
+ >   *a* \| *b*→:→{ $\epsilon$, “a”, “b”, “bb”, “bbb”, … }  
+    (*a* \| *b*)\*→:→*a*, *b* 로만 이루어진 문자열,→empty string 포함  
+    (*ab*\* (*c* \| *$\epsilon$*))→:→*a* 로 시작하는 문자열,→*b* (zero or more),→*c* (zero or one)
+>
 
 <br/>
 ### Finite Automata : DFA, NFA
@@ -150,7 +146,8 @@ ex. design a Deterministic Finite Automata
 
 $\sum$ - {*a, b*} ,→Language : string starting with  *a*
 
-regular expression : *a* (*a* \| *b*)*
+>regular expression : *a* (*a* \| *b*)*
+>
 
 ![image](https://user-images.githubusercontent.com/86834982/200221625-ddf9b69b-d349-46bc-b2e0-1d4a33ffd7ec.png){: width="70%" height="70%"}
 
@@ -166,7 +163,8 @@ ex. design a Non Deterministic Finite Automata
 
 $\sum$ - {*0,1*} ,→Language : binary strings that 2nd last bit is 1
 
-regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
+>regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
+>
 
 ![image](https://user-images.githubusercontent.com/86834982/200221731-de1271fd-10a6-4a6d-aa33-1f3376a7ceb9.png){: width="70%" height="70%"}
 
@@ -185,7 +183,8 @@ regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
 
 **Transition Table**을 사용해서 NFA -> DFA 변환하는 방법
 
-ex. regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
+>ex. regular expression : (*0* \| *1*)* *1* (*0* \| *1*)
+>
 
 ![image](https://user-images.githubusercontent.com/86834982/200221736-df73c9a4-87a0-44f6-9dad-236ed9c3b09c.png){: width="70%" height="70%"}
 
