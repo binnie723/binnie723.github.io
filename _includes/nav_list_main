@@ -50,7 +50,7 @@
           </ul>
 
 
-        <span class="nav__sub-title">Others</span>
+        <span class="nav__sub-title">Design</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Blog" %}
@@ -61,7 +61,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Motiongraphic" %}
-                <li><a href="/categories/motion-graphic" class="">Motion Graphic ({{category[1].size}})</a></li>
+                <li><a href="/categories/motion-graphic" class="">Motion Graphic (with Adobe)({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
