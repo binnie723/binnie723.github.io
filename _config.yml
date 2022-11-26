@@ -131,6 +131,9 @@ author:
     - label: "NaverBlog"
       icon: "fas fa-fw fa-link"
       url: "https://blog.naver.com/binnie723"
+    - label: "ArtStudio"
+      icon: "fas fa-fw fa-link"
+      url: "https://binnie723.myportfolio.com/"
      
 
 # Site Footer
