@@ -130,7 +130,7 @@ author:
       url: "https://instagram.com/binnie_shin"
     - label: "NaverBlog"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/binnie723"
+      url: #"https://blog.naver.com/binnie723"
     - label: "ArtStudio"
       icon: "fas fa-fw fa-link"
       url: "https://binnie723.myportfolio.com/"
