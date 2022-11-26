@@ -24,14 +24,7 @@
             {% endfor %}
           </ul>
           
-        <span class="nav__sub-title">ML/DL</span>
-          <ul>
-            {% for category in site.categories %}
-              {% if category[0] == "Deep Learning" %}
-                <li><a href="/categories/deep-learning" class="">Deep Learning(이론) ({{category[1].size}})</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
+        <span class="nav__sub-title">AI</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Object Detection" %}
@@ -62,6 +55,13 @@
             {% for category in site.categories %}
               {% if category[0] == "Blog" %}
                 <li><a href="/categories/blog" class="">Github Blog (with Jekyll) ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "Motiongraphic" %}
+                <li><a href="/categories/motion-graphic" class="">Motion Graphic ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
