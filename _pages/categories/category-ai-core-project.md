@@ -1,7 +1,7 @@
 ---
-title: "Web Crawling (with Selenium)"
+title: "AI Core Project"
 layout: archive
-permalink: categories/web-crawling
+permalink: categories/ai-core-project
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Web Crawling (with Selenium)'] %}
+{% assign posts = site.categories['AI Core Project'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
