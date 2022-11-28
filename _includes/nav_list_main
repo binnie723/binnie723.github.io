@@ -28,7 +28,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "AI Core Project" %}
-                <li><a href="/categories/object-detection" class="">AI-core project ({{category[1].size}})</a></li>
+                <li><a href="/categories/ai-core-project" class="">AI-core project ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
