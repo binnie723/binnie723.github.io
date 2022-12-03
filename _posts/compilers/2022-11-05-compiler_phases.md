@@ -2,7 +2,6 @@
 title: Compiler Phases
 subtitle: 
 categories: Compilers
-tags: [compiler, phases]
 toc: true
 toc_sticky: true
 date: 2022-11-03 23:51:28 +0000
@@ -57,11 +56,13 @@ Symbol Resolution : 각 symbol(함수, 변수) reference를 하나의 definition
 Relocation : 재배치, symbol의 정의를 메모리에 올리고, reference가 이를 가르키도록 수정. 
 
 ![image](https://user-images.githubusercontent.com/86834982/205443978-f9e8b219-9545-4aac-9505-af7421f00961.png){: width="600px"}
+  
 <br/>
 ex. relocation entries 
 
 링커가 relocation entry를 발견하면, 그 symbol을 resolve하여 (빨간색 부분을) 채워넣는다.  
 ![image](https://user-images.githubusercontent.com/86834982/205443979-1f86693f-0b9f-43ee-8c10-9dbb3be04d8b.png){: width="600px"}
+  
 <br/> 
 ex. relocated text section
 
