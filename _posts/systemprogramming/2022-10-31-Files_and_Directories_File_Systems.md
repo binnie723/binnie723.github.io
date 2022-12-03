@@ -3,8 +3,6 @@ title:  "[5] Files랑 Directories, File Systems"
 
 categories:
   - System Programming
-tags:
-  - [Linux, Unix, file, directory]
 
 toc: true
 toc_sticky: true

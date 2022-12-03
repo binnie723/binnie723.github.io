@@ -4,7 +4,7 @@ title:  "자동으로 서버에 접속하는 shell script 만들기"
 categories:
   - System Programming
 tags:
-  - [Linux, Unix, shell]
+  - [shell]
 
 toc: true
 toc_sticky: true

@@ -3,8 +3,6 @@ title:  "[따로 정리하는] Linux Commands"
 
 categories:
   - System Programming
-tags:
-  - [Linux, Unix, commands]
 
 toc: true
 toc_sticky: true

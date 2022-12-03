@@ -4,7 +4,7 @@ title:  "Shell Programming 문법"
 categories:
   - System Programming
 tags:
-  - [Linux, Unix, shell, programming]
+  - [shell]
 
 toc: true
 toc_sticky: true

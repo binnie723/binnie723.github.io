@@ -3,8 +3,6 @@ title:  "Linux Basics 개념"
 
 categories:
   - System Programming
-tags:
-  - [Linux, Unix, basic, concepts]
 
 toc: true
 toc_sticky: true

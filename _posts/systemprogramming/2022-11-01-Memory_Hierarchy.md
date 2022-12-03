@@ -4,7 +4,7 @@ title:  "[따로 정리하는] Memory Hierarchy"
 categories:
   - System Programming
 tags:
-  - [Linux, Unix, memory, hierarchy]
+  - [memory]
 
 toc: true
 toc_sticky: true
