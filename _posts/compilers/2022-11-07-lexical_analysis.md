@@ -2,6 +2,8 @@
 title: Lexical Analysis
 subtitle: 
 categories: Compilers
+tags:
+  - [lex, token]
 toc: true
 toc_sticky: true
 date: 2022-11-07 23:51:28 +0000

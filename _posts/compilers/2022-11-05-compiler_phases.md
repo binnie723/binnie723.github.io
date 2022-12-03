@@ -2,6 +2,8 @@
 title: Compiler Phases
 subtitle: 
 categories: Compilers
+tags:
+  - [compilation]
 toc: true
 toc_sticky: true
 date: 2022-11-03 23:51:28 +0000

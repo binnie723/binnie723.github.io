@@ -2,6 +2,8 @@
 title: Finite Automata - DFA, NFA
 subtitle: 
 categories: Compilers
+tags:
+  - [automata]
 toc: true
 toc_sticky: true
 use_math: true
