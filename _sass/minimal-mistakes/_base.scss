@@ -31,18 +31,17 @@ h6 {
   line-height: 1.2;
   color:#454545;
   font-family: $cute;
-  font-weight:550;
 }
 
 h1 {
   margin-top: 0;
   font-size: 1.4em;
-  font-weight:550;
+  font-weight:630;
 }
 
 h2 {
   font-size: $h-size-2;
-  font-weight:550;
+  font-weight:600;
 }
 
 h3 {
@@ -52,10 +51,12 @@ h3 {
 
 h4 {
   font-size: $h-size-4;
+  font-weight:550;
 }
 
 h5 {
   font-size: $h-size-5;
+  font-weight:550;
 }
 
 h6 {
@@ -65,6 +66,7 @@ h6 {
 small,
 .small {
   font-size: $type-size-6;
+  font-weight:550;
 }
 
 summary {
