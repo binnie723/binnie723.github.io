@@ -170,7 +170,6 @@ input[type="radio"],
 input[type="checkbox"] {
     cursor: pointer; /* improves usability and consistency of cursor style between image-type `input` and others*/
 }
-
 input[type="search"] { /* Appearance in Safari/Chrome*/
   box-sizing: border-box;
   -webkit-appearance: textfield;
@@ -208,11 +207,3 @@ time, mark, audio, video {
   font-weight: 540;
 }
 
-.svg-inline--fa {
-    display: none;
-    overflow: hidden;
-}
-
-a:-webkit-any-link {
-    text-decoration: none;
-}
