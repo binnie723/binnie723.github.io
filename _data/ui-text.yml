@@ -10,7 +10,7 @@ en: &DEFAULT_EN
   page                       : "Page"
   pagination_previous        : "Previous"
   pagination_next            : "Next"
-  breadcrumb_home_label      : "🌕Home"
+  breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "See more"
   search_label               : "Toggle search"
@@ -599,31 +599,31 @@ ko: &DEFAULT_KO
   skip_content               :
   skip_footer                :
   page                       : "페이지"
-  pagination_previous        : "이전"
-  pagination_next            : "다음"
+  pagination_previous        : "Prev"
+  pagination_next            : "Next"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "토글 메뉴"
   search_label               :
-  toc_label                  : "목차"
+  toc_label                  : "Contents"
   ext_link_label             : "직접 링크"
   less_than                  : "최대"
   minute_read                : "분 소요"
-  share_on_label             : "공유하기"
+  share_on_label             : "Share"
   meta_label                 :
   tags_label                 : "태그:"
   categories_label           : "카테고리:"
   date_label                 : "Update:"
   comments_label             : "댓글남기기"
   comments_title             : "댓글"
-  more_label                 : "더 보기"
+  more_label                 : "더보기"
   related_label              : "참고"
   follow_label               : "팔로우:"
   feed_label                 : "피드"
   powered_by                 : "Powered by"
   website_label              : "웹사이트"
   email_label                : "이메일"
-  recent_posts               : "Recent Posts"
+  recent_posts               : "Recent Posts :)"
   undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
   comment_form_info          : "이메일은 공개되지 않습니다. 작성 필요 필드:"
   comment_form_comment_label : "댓글"
@@ -640,7 +640,7 @@ ko: &DEFAULT_KO
   search_placeholder_text    : "검색어를 입력하세요..."
   search_algolia_no_results  :
   results_found              : "개 결과 발견"
-  back_to_top                : "맨 위로 이동"
+  back_to_top                : "Go to Top"
 ko-KR:
   <<: *DEFAULT_KO
 
