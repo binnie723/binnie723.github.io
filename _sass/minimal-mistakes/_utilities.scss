@@ -162,7 +162,7 @@ body:hover .visually-hidden button {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  color: rgba(#000, 0.45);
+  background-color: rgba(#000, 0.45);
 
   @include breakpoint($small) {
     float: right;
