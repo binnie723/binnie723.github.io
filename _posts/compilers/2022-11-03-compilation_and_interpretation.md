@@ -3,7 +3,7 @@ title: Compilation and Interpretation
 subtitle: 
 categories: Compilers
 tags:
-  - [compilation, interpretation]
+  - [compiler, interpreter]
 toc: true
 toc_sticky: true
 date: 2022-11-03 23:51:28 +0000

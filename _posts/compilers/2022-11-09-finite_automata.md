@@ -101,7 +101,7 @@ Lexical Specification -> Regular Expression -> NFA -> DFA -> minimal DFA -> gene
 
 푸시 다운 오토마타는 스택을 가지고 있기 때문에 다음 상태를 스텍에 push 해서 새로운 상태로 넘어갈 수 있고, pop해서 이전 상태로 돌아갈 수 있다. 
 
-![image](https://user-images.githubusercontent.com/86834982/205446256-672a5fe7-303b-4aa4-83f7-67ed2ffdc492.png){: width="600px"}  
+![image](https://user-images.githubusercontent.com/86834982/205446256-672a5fe7-303b-4aa4-83f7-67ed2ffdc492.png){: width="550px"}  
 
 
 
