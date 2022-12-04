@@ -1,5 +1,5 @@
 ---
-title:  "[따로 정리하는] Memory Hierarchy" 
+title:  "Memory Hierarchy" 
 
 categories:
   - System Programming

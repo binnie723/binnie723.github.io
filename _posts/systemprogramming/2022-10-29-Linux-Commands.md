@@ -1,5 +1,5 @@
 ---
-title:  "[따로 정리하는] Linux Commands" 
+title:  "Linux Commands" 
 
 categories:
   - System Programming
