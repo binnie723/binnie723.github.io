@@ -18,7 +18,7 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1.5em);
+    width: calc(#{$right-sidebar-width-narrow} - 2em);
     opacity: 0.9;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -37,7 +37,7 @@
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width: calc(#{$right-sidebar-width} - 2em);
   }
 
   > * {
@@ -80,8 +80,8 @@
     top: 0;
     right: 0;
     width: $right-sidebar-width-narrow;
-    margin-right: -1 * $right-sidebar-width-narrow;
-    padding-left: 1em;
+    margin-right: -1.2 * $right-sidebar-width-narrow;
+    padding-left: 0.7em;
     z-index: 10;
 
     &.sticky {
