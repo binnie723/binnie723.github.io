@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "https://img.icons8.com/ios/250/000000/home.png"
+  - title: "🏠"
     url: /index.html
-  - title: "https://img.icons8.com/ios/250/000000/notepad.png"
+  - title: "🗒️"
     url: /categories/
 
 # 카테고리 추가시
