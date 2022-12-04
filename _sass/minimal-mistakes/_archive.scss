@@ -45,6 +45,7 @@
   //font-weight: bold;
 
   + .list__item .archive__item-title {
+    color: rgba(#000, 50%);
     margin-top: 0.5em;
   }
 }
@@ -56,6 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: $cute;
+  color: rgba(#000, 50%);
   font-size: 1.15em;
 
   a[rel="permalink"]::before {
@@ -78,6 +80,7 @@
     margin-top: 1.2em;
     font-size: 1.15em;
     font-family: $cute;
+    color: rgba(#000, 50%);
     border-bottom: none;
   }
 }
