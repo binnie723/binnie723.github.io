@@ -66,6 +66,7 @@
 
   li {
     display: block;
+    color: #464646;
     float: left;
     margin-left: -1px;
 
@@ -78,7 +79,7 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: rgba(#000, 50%);
+      color: #464646;
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
