@@ -78,7 +78,7 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: #464646;
+      color: rgb(#000, 50%);
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
@@ -89,11 +89,11 @@
       &.current,
       &.current.disabled {
         color: #fcfcfc;
-        background: #464646;
+        background: rgb(#000, 50%);
       }
 
       &.disabled {
-        color: #464646;
+        color: rgb(#000, 40%);
         pointer-events: none;
         cursor: not-allowed;
       }
