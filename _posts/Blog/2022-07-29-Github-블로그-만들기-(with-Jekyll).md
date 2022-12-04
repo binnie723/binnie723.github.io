@@ -4,7 +4,7 @@ title:  "내 Github 블로그 만들기"
 categories:
   - Blog
 tags:
-  - [Github, Jekyll, minimal-mistake]
+  - [Github, Ruby]
 
 toc: true
 toc_sticky: true
