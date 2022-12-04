@@ -603,7 +603,7 @@ ko: &DEFAULT_KO
   pagination_next            : "Next"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
-  menu_label                 : "토글 메뉴"
+  menu_label                 : "Menu"
   search_label               :
   toc_label                  : "Contents"
   ext_link_label             : "직접 링크"
@@ -611,8 +611,8 @@ ko: &DEFAULT_KO
   minute_read                : "분 소요"
   share_on_label             : "Share"
   meta_label                 :
-  tags_label                 : "태그:"
-  categories_label           : "카테고리:"
+  tags_label                 : "Tags:"
+  categories_label           : "Category:"
   date_label                 : "Update:"
   comments_label             : "댓글남기기"
   comments_title             : "댓글"
