@@ -11,11 +11,9 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color : #585858;
-  font-family: $cute;
+  color: $text-color;
+  font-family: $global-font-family;
   line-height: 1.8;
-  font-size: 0.975em;
-  font-weight: 512;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
