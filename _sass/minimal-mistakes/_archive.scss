@@ -39,7 +39,7 @@
   margin: 0.8em 0 0;
   padding-bottom: 0.8em;
   font-size: $type-size-4;
-  color: rgba(#000, 60%);
+  color: rgba(#000, 50%);
   border-bottom: 1px solid $border-color;
   font-family: $cute;
   //font-weight: bold;
@@ -115,7 +115,7 @@
   color: #fff;
   font-family: $cute;
   font-size: $type-size-7;
-  background: #000;
+  background: rgba(#000, 50%);
   text-align: right;
   z-index: 5;
   opacity: 0.5;
@@ -126,7 +126,7 @@
   }
 
   a {
-    color: rgba(0, 0, 0, 0.6);
+    color: rgba(0, 0, 0, 0.5);
     text-decoration: none;
   }
 }
@@ -139,7 +139,7 @@
   .page__meta {
     margin: 0 0 4px;
     font-family: $cute;
-    color: rgba(#000, 0.6);
+    color: rgba(#000, 0.5);
     font-size: 0.8em;
   }
 }
