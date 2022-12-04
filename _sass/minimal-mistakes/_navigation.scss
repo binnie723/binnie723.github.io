@@ -90,11 +90,9 @@
       &.current,
       &.current.disabled {
         color: #fcfcfc;
-        background: rgba(#000, 40%);
       }
 
       &.disabled {
-        color: rgba(#000, 30%);
         pointer-events: none;
         cursor: not-allowed;
       }
