@@ -87,6 +87,6 @@
   $light: $yiq-contrasted-light-default,
   $threshold: $yiq-contrasted-threshold
 ) {
-  background-color: $background-color;
+  background-color: #5c5c5c;
   color: yiq-contrast-color($background-color, $dark, $light, $threshold);
 }
