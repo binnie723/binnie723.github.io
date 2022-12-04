@@ -23,11 +23,11 @@ last_modified_at: 2022-08-01
 
 <br/> 오른쪽 메뉴(...)를 보면 내보내기가 있는데
 
-![image](https://user-images.githubusercontent.com/86834982/182108474-b503b526-2ab0-4cdb-abc7-8a438901b84c.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/182108474-b503b526-2ab0-4cdb-abc7-8a438901b84c.png){: width="550px"}
 
 <br/> Mark & CSV로 내보내기해서 저장하면 끝 
 
-![image](https://user-images.githubusercontent.com/86834982/182108243-0aff1dbf-dd0a-443e-ac88-fe7644c93dba.png){: width="80%" height="80%"}  
+![image](https://user-images.githubusercontent.com/86834982/182108243-0aff1dbf-dd0a-443e-ac88-fe7644c93dba.png){: width="550px"}  
 
 💡 Notion에서 이미지 파일이 변환 형식만 맞지 않는데, 따로 바꿔서 넣어주어야 한다. (다음 글에 정리할 예정)
 {: .notice--primary} 
@@ -38,7 +38,7 @@ last_modified_at: 2022-08-01
 
 이제 만든 마크다운 파일을 블로그 폴더에 옮겨주어야 한다. 편의를 위해 포스팅들을 모아둘 _post 폴더를 따로 만들어준다. (이미 있으면 생략하기)
 
-![image](https://user-images.githubusercontent.com/86834982/182108024-8acd25e1-228b-4ce7-8585-d3490b25f0a1.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/182108024-8acd25e1-228b-4ce7-8585-d3490b25f0a1.png){: width="550px"}
 
 <br/><br/> 
 ### 2. **yyyy-mm-dd-title.md**로 파일 이름 변경 

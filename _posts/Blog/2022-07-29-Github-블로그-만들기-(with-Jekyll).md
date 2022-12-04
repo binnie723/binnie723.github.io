@@ -33,7 +33,7 @@ Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로,
 💡 새로운 Repository의 이름은 **반드시!** 다음과 같이 설정   
 {: .notice--primary}  
 
-![image](https://user-images.githubusercontent.com/86834982/181670337-1f5b145f-1f10-4362-b977-202d0359022f.png){: width="72%" height="78%"}
+![image](https://user-images.githubusercontent.com/86834982/181670337-1f5b145f-1f10-4362-b977-202d0359022f.png){: width="520px"}
 
 <br/> 
 ### 2. 생성한 Repository를 내 컴퓨터 로컬 환경으로 clone 하기
@@ -44,12 +44,12 @@ Jekyll(지킬)은 Github 설립자 중 한 명이 개발한 프레임 워크로,
 
 내 블로그 Repository의 주소 :  **Code** -> **HTTPS** 아래에 적혀있는 url 참고
 
-![image](https://user-images.githubusercontent.com/86834982/181670802-9bc91f66-18f9-4afa-a75f-66f66a0a884a.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/181670802-9bc91f66-18f9-4afa-a75f-66f66a0a884a.png){: width="550px"}
 
 다음과 같이 내 컴퓨터에 블로그 Repository 폴더가 생성된다.  
 -> 이제 내 컴퓨터가 Github와 원격으로 연결되어 원하는 작업 수행 가능 
 
-![image](https://user-images.githubusercontent.com/86834982/181670860-8937ff5c-aaf9-4996-ba53-3a134851b374.png){: width="72%" height="78%"}
+![image](https://user-images.githubusercontent.com/86834982/181670860-8937ff5c-aaf9-4996-ba53-3a134851b374.png){: width="520px"}
 
 
 
@@ -105,11 +105,11 @@ gem install jekyll bundler
 
 🔍  **Jekyll 테마 사이트 : [http://themes.jekyllrc.org/](http://jekyllthemes.org/)**
 
-![image](https://user-images.githubusercontent.com/86834982/181670910-33f009e1-d461-4d7d-be8b-709b472da56b.png){: width="88%" height="88%"}
+![image](https://user-images.githubusercontent.com/86834982/181670910-33f009e1-d461-4d7d-be8b-709b472da56b.png){: width="580px"}
 
 다운 받은 zip 파일을 풀고 그 안에 내용물을 **전부** 복사해서 내 블로그 폴더 [`binnie723.github.io`](http://binnie723.github.io) 에 붙여넣어주면 된다. 
 
-![image](https://user-images.githubusercontent.com/86834982/181670954-3701248d-a1b8-4fc9-951b-9185b5d17555.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/181670954-3701248d-a1b8-4fc9-951b-9185b5d17555.png){: width="580px"}
 
 
 <br/> 
