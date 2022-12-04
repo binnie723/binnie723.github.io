@@ -2,7 +2,7 @@
 main:
   - title: "🏠"
     url: /index.html
-  - title: "🗒️"
+  - title: "💭"
     url: /categories/
 
 # 카테고리 추가시
