@@ -53,7 +53,6 @@ body:hover .visually-hidden button {
   width: auto !important;
   display: block;
   font-size: 1em;
-  font-weight: bold;
   padding: 15px 23px 14px;
   background: #fff;
   z-index: 100000;
@@ -546,7 +545,6 @@ a.reversefootnote {
 
 .required {
   color: $danger-color;
-  font-weight: bold;
 }
 
 /*
