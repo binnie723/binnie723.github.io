@@ -204,3 +204,9 @@ time, mark, audio, video {
     overflow: hidden;
     vertical-align: -0.125em;
 }
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+}
