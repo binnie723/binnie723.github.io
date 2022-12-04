@@ -45,20 +45,20 @@
   //font-weight: bold;
 
   + .list__item .archive__item-title {
-    color: rgba(#000, 55%);
+    color: #464646;
     margin-top: 0.8em;
   }
 }
 
 .archive__item-title {
-  margin-bottom: 1.0em;
+  margin-bottom: 0.7em;
   font-family: $cute;
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: $cute;
   color: #464646;
-  font-size: 1.12em;
+  font-size: 1.1em;
 
   a[rel="permalink"]::before {
     content: '';
