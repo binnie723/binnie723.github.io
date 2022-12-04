@@ -600,7 +600,7 @@ ko: &DEFAULT_KO
   skip_footer                :
   page                       : "페이지"
   pagination_previous        : "🔙"
-  pagination_next            : "➡"
+  pagination_next            : "🔜"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "Menu"
