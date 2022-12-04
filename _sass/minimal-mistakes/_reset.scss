@@ -196,6 +196,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
   font-weight: 540;
 }
+svg:not(:root).svg-inline--fa {
+    overflow: invisible;
+}
 
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
