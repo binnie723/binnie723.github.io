@@ -36,7 +36,7 @@
 }
 
 .archive__subtitle {
-  color: rgba(#000, 55%);
+  color: #464646;
   margin: 0.9em 0 0;
   padding-bottom: 0.8em;
   font-size: $type-size-4;
@@ -57,7 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: $cute;
-  color: rgba(#000, 55%);
+  color: #464646;
   font-size: 1.12em;
 
   a[rel="permalink"]::before {
