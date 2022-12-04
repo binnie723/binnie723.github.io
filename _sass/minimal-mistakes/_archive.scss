@@ -36,16 +36,16 @@
 }
 
 .archive__subtitle {
+  color: rgba(#000, 45%);
   margin: 0.8em 0 0;
   padding-bottom: 0.8em;
   font-size: $type-size-4;
-  color: rgba(#000, 50%);
   border-bottom: 1px solid $border-color;
   font-family: $cute;
   //font-weight: bold;
 
   + .list__item .archive__item-title {
-    color: rgba(#000, 50%);
+    color: rgba(#000, 45%);
     margin-top: 0.5em;
   }
 }
@@ -57,7 +57,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: $cute;
-  color: rgba(#000, 50%);
+  color: rgba(#000, 45%);
   font-size: 1.15em;
 
   a[rel="permalink"]::before {
