@@ -36,16 +36,16 @@
 }
 
 .archive__subtitle {
-  color: #464646;
+  color: rgba(0,0,0,0.55);
   margin: 0.9em 0 0;
   padding-bottom: 0.8em;
-  font-size: $type-size-4;
+  font-size: 1.1em;
   border-bottom: 1px solid $border-color;
   font-family: $cute;
   //font-weight: bold;
 
   + .list__item .archive__item-title {
-    color: #464646;
+    color: rgba(0,0,0,0.55);
     margin-top: 0.8em;
   }
 }
