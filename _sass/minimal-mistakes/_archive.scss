@@ -129,7 +129,7 @@
   }
 
   a {
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.55);
     text-decoration: none;
   }
 }
@@ -142,7 +142,7 @@
   .page__meta {
     margin: 0 0 4px;
     font-family: $cute;
-    color: rgba(#000, 0.5);
+    color: rgba(#000, 0.55);
     font-size: 0.8em;
   }
 }
@@ -220,7 +220,7 @@
   .archive__item-title {
     margin-top: 0.7em;
     font-family: $cute;
-    font-size: 1.15em;
+    font-size: 1.12em;
   }
 
   .archive__item-excerpt {
@@ -260,7 +260,7 @@
 .feature__item {
   position: relative;
   margin-bottom: 2em;
-  font-size: 1.15em;
+  font-size: 1.12em;
 
   @include breakpoint($small) {
     float: left;
