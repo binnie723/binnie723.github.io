@@ -73,7 +73,7 @@
     a {
       display: block;
       margin-bottom: 0.2em;
-      padding: 0.5em 0.8em;
+      padding: 0.8em 0.8em;
       font-family: $cute;
       font-size: 0.9em;
       line-height: 1.5;
@@ -94,6 +94,7 @@
 
       &.disabled {
         pointer-events: none;
+        color: #464646;
         cursor: not-allowed;
       }
     }
