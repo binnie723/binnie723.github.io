@@ -136,7 +136,7 @@
     font-size: $type-size-5;
     text-align: center;
     text-decoration: none;
-    color: #666666;
+    color: $muted-text-color;
     border: 1px solid mix(#fff, $border-color, 60%);
     border-radius: $border-radius;
 
@@ -146,7 +146,7 @@
     }
 
     &:hover {
-      @include yiq-contrasted(rgba(0, 0, 0, 0.3));
+      @include yiq-contrasted(rgba(#fff, 0.3));
     }
 
     &:first-child {
