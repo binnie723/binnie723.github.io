@@ -14,6 +14,7 @@ body {
   color : #4a4949;
   font-family: $cute;
   line-height: 1.8;
+  font-weight: 512;
 
   &.overflow--hidden {
     /* when primary navigation is visible, the content in the background won't scroll */
@@ -31,6 +32,7 @@ h6 {
   line-height: 1.2;
   color:#454545;
   font-family: $cute;
+  font-weight:560;
 }
 
 h1 {
