@@ -197,10 +197,17 @@ time, mark, audio, video {
   font-weight: 540;
 }
 svg:not(:root).svg-inline--fa {
-    overflow: invisible;
+    overflow: hidden;
 }
 svg:not(:root).svg-inline--fa {
-    overflow: invisible;
+    overflow: hidden;
+}
+.svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    overflow: hidden;
+    vertical-align: -0.125em;
 }
 
 input[type="search"]::-webkit-search-decoration,
