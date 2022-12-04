@@ -199,13 +199,9 @@ time, mark, audio, video {
 
 .svg-inline--fa {
     display: none;
-    font-size: inherit;
-    height: 1em;
     overflow: hidden;
-    vertical-align: -0.125em;
 }
 
 a:-webkit-any-link {
-    cursor: pointer;
     text-decoration: none;
 }
