@@ -72,7 +72,7 @@
     a {
       display: block;
       margin-bottom: 0.2em;
-      padding: 0.3em 0.8em;
+      padding: 0.5em 0.8em;
       font-family: $cute;
       font-size: 0.9em;
       line-height: 1.5;
@@ -89,11 +89,11 @@
       &.current,
       &.current.disabled {
         color: #fcfcfc;
-        background: rgb(#000, 50%);
+        background: rgb(#000, 40%);
       }
 
       &.disabled {
-        color: rgb(#000, 40%);
+        color: rgb(#000, 30%);
         pointer-events: none;
         cursor: not-allowed;
       }
