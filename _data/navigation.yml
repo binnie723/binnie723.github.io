@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "🏠"
+  - title: "ʜᴏᴍᴇ"
     url: /index.html
-  - title: "💭"
+  - title: "ᴄᴀᴛᴇɢᴏʀʏ"
     url: /categories/
 
 # 카테고리 추가시
