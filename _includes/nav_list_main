@@ -8,6 +8,9 @@
         <span style="font-family:'Cafe24Oneprettynight';">Total Post: </style> <span style="font-family:'Cafe24Oneprettynight';">{{sum}}</style> 
       </li>
       <li>
+        <span style="font-family:'Cafe24Oneprettynight';">   </style> 
+      </li>
+      <li>
         <span class="nav__sub-title">CS</span>
           <ul>
             {% for category in site.categories %}
