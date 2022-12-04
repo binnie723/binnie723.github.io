@@ -147,19 +147,19 @@ blockquote {
 
 /* links */
 
-// a {
-//   font-weight: 550;
-//   text-decoration: none;
+a {
+  font-weight: 550;
+  text-decoration: none;
 
-//   &:focus {
-//     @extend %tab-focus;
-//   }
+  &:focus {
+    @extend %tab-focus;
+  }
 
-//   &:hover {
-//     color: $link-color-hover;
-//     outline: 0;
-//   }
-// }
+  &:hover {
+    color: $link-color-hover;
+    outline: 0;
+  }
+}
 
 /* buttons */
 
@@ -301,9 +301,9 @@ figcaption {
 
 /* Fix IE9 SVG bug */
 
-// svg:not(:root) {
-//   overflow: hidden;
-// }
+svg:not(:root) {
+  overflow: hidden;
+}
 
 /*
    Navigation lists
