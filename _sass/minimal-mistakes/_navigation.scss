@@ -71,15 +71,14 @@
 
     a {
       display: block;
-      margin-bottom: 0.25em;
-      padding: 0.5em 1em;
+      margin-bottom: 0.2em;
+      padding: 0.3em 0.8em;
       font-family: $cute;
-      font-size: 1em;
-      font-weight: bold;
+      font-size: 0.9em;
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: $gray;
+      color: #464646;
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
@@ -90,11 +89,11 @@
       &.current,
       &.current.disabled {
         color: #fcfcfc;
-        background: $gray;
+        background: #464646;
       }
 
       &.disabled {
-        color: $gray;
+        color: #464646;
         pointer-events: none;
         cursor: not-allowed;
       }
