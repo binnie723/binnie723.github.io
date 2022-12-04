@@ -42,7 +42,7 @@
   }
 
   .current {
-    //font-weight: bold;
+
   }
 }
 
@@ -134,7 +134,6 @@
     width: 100%;
     font-family: $cute;
     font-size: $type-size-5;
-    font-weight: bold;
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
@@ -372,7 +371,6 @@
       padding: 0.5em 2.5em 0.5em 1em;
       color: $gray;
       font-size: $type-size-6;
-      font-weight: bold;
       border: 1px solid $light-gray;
       border-radius: $border-radius;
       z-index: 20;
@@ -483,7 +481,6 @@
     margin-left: -0.5em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    font-weight: bold;
   }
 
   @include breakpoint(max-width $large - 1px) {
@@ -519,7 +516,6 @@
   padding: 0.5rem 0.75rem;
   font-family: $cute;
   font-size: 0.9em;
-  font-weight: bold;
 }
 
 .nav__sub-title {
@@ -575,7 +571,6 @@
     display: block;
     padding: 0.25rem 0.75rem;
     color: $muted-text-color;
-    //font-weight: bold;
     line-height: 1.5;
     font-size: 0.9em;
     border-bottom: 1px solid $border-color;
