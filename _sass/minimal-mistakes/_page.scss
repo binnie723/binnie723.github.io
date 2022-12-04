@@ -347,9 +347,9 @@ body {
   border: 0.9px solid rgba(0, 0, 0, 0.5);
   border-radius: $border-radius;
   background-color: #fff;
-  color: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.48);
   font-family: $cute;
-  font-size: $type-size-7;
+  font-size: $type-size-6;
 
   &:hover {
     text-decoration: none;
@@ -365,10 +365,10 @@ body {
   text-decoration: none;
   border: 0.9px solid $background-color;
   border-radius: $border-radius;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.48);
   font-family: $cute;
   color: #fff;
-  font-size: $type-size-7;
+  font-size: $type-size-6;
 	
 
   &:hover {
