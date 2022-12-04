@@ -79,7 +79,7 @@
       line-height: 1.5;
       text-align: center;
       text-decoration: none;
-      color: rgba(#000, 0.5);
+      color: $gray;
       border: 1px solid mix(#000, $border-color, 25%);
       border-radius: 0;
 
@@ -90,11 +90,11 @@
       &.current,
       &.current.disabled {
         color: #fcfcfc;
-        background: rgba(#000, 0.5);
+        background: $gray;
       }
 
       &.disabled {
-        color: rgba(#000, 0.5);
+        color: $gray;
         pointer-events: none;
         cursor: not-allowed;
       }
@@ -527,7 +527,7 @@
   padding: 0.25rem 0;
   font-size: 1.18em;
   font-family: $cute;
-  color: rgba(#000,0.7);
+  color: rgba(#000,0.6);
   border-bottom: 1px solid $border-color;
 }
 
@@ -548,7 +548,7 @@
   .nav__title {
     color: #fff;
     font-size: $type-size-5;
-    background: rgba(#000,0.5);
+    background: $gray;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
