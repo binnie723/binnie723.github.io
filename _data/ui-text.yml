@@ -599,8 +599,8 @@ ko: &DEFAULT_KO
   skip_content               :
   skip_footer                :
   page                       : "페이지"
-  pagination_previous        : "Prev"
-  pagination_next            : "Next"
+  pagination_previous        : "Back 🔙"
+  pagination_next            : "Next 🔜"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
   menu_label                 : "Menu"
@@ -640,7 +640,7 @@ ko: &DEFAULT_KO
   search_placeholder_text    : "검색어를 입력하세요..."
   search_algolia_no_results  :
   results_found              : "개 결과 발견"
-  back_to_top                : "Go to Top"
+  back_to_top                : "🔝"
 ko-KR:
   <<: *DEFAULT_KO
 
