@@ -36,7 +36,7 @@
 }
 
 .archive__subtitle {
-  color: rgba(#000, 45%);
+  color: rgba(#000, 50%);
   margin: 0.8em 0 0;
   padding-bottom: 0.8em;
   font-size: $type-size-4;
@@ -45,8 +45,8 @@
   //font-weight: bold;
 
   + .list__item .archive__item-title {
-    color: rgba(#000, 45%);
-    margin-top: 0.5em;
+    color: rgba(#000, 50%);
+    margin-top: 0.8em;
   }
 }
 
@@ -57,8 +57,8 @@
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: $cute;
-  color: rgba(#000, 45%);
-  font-size: 1.15em;
+  color: rgba(#000, 50%);
+  font-size: 1.12em;
 
   a[rel="permalink"]::before {
     content: '';
@@ -77,8 +77,8 @@
 /* remove border */
 .page__content {
   .archive__item-title {
-    margin-top: 1.2em;
-    font-size: 1.15em;
+    margin-top: 1.4em;
+    font-size: 1.12em;
     font-family: $cute;
     color: rgba(#000, 50%);
     border-bottom: none;
