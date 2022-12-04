@@ -79,6 +79,7 @@ body {
   & + .page__meta {
     margin-top: -0.5em;
     font-family: $cute;
+    font-size: 0.8em;
   }
 }
 
@@ -300,9 +301,9 @@ body {
 .page__meta {
   margin-top: 2em;
   margin-bottom: 1em;
-  color: rgba(0, 0, 0, 0.45);
+  color: rgba(0, 0, 0, 0.5);
   font-family: $cute;
-  font-size: 0.6em;
+  font-size: 0.8em;
 
   p {
     margin: 0;
