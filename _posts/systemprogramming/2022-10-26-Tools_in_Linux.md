@@ -3,7 +3,8 @@ title:  "Tools in Linux : make, gdb, patch"
 
 categories:
   - System Programming
-
+tags:
+  - [linux, compiler]
 toc: true
 toc_sticky: true
 
