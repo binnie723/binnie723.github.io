@@ -146,7 +146,7 @@
     }
 
     &:hover {
-      @include yiq-contrasted(rgba(#fff, 0.3));
+      @include yiq-contrasted(rgba(#000, 0.45));
     }
 
     &:first-child {
