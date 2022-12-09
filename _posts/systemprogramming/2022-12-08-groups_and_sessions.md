@@ -21,9 +21,9 @@ last_modified_at: 2022-12-06
 
 프로세스는 전체적으로 tree 구조 (hierarchy)를 가진다. 
 
-pid 0인 프로세스는 컴퓨터 부팅과 동시에 실행되며 모든 부트 시스템과 부트 로더를 실행한다. 그리고 pid가 1인 init 프로세스를 fork하는데, 이는 다른 모든 프로세스의 root 프로세스가 된다. 
+pid 0인 프로세스는 컴퓨터 부팅과 동시에 실행되며, 모든 부트 시스템과 부트 로더를 실행한다. 그리고 pid가 1인 init 프로세스를 fork하는데, 이는 모든 프로세스의 root가 된다. 
 
-![image](https://user-images.githubusercontent.com/86834982/206691743-e456d67f-e0a4-4d9d-820a-a86ba6f04c3b.png){: width="550px"}
+![image](https://user-images.githubusercontent.com/86834982/206691743-e456d67f-e0a4-4d9d-820a-a86ba6f04c3b.png){: width="500px"}
 
 `ps` : 현재 수행 중인 프로세스가 무엇인지 확인하는 명령어
 
@@ -51,10 +51,9 @@ ex.  *pstree* 명령어를 실행한 결과
 
 ex. pipe를 통해 여러 커맨드 수행하는 경우 
 
- `proc1 | proc2 &` : 프로세스 2개가 **하나의 목적**을 가지고 실행되는 것
+ `proc1 | proc2 &` : 프로세스 2개가 **하나의 목적**을 가지고 실행되는 것  (& : background에서 실행하겠다)
 
--> 여기서 &는 background에서 프로세스를 실행하겠다는 명령어
-
+<br/>
 **getpgrp(2), getpgid(2)**
 
 각 프로세스 그룹은 고유한 group id(=pgid)를 부여받는데,
@@ -74,6 +73,7 @@ pid_t getpgid(pid_t pid); // pid에 해당하는 프로세스의 pgid 리턴
     - 나머지 child 프로세스들을 모두 호출한 가장  parent 프로세스
     - leader 프로세스만 다른 child 프로세스나 새로운 프로세스 group 생성 가능
 
+<br/>
 **setpgid(2)**
 
 setpgid는 프로세스가 속한 그룹의 pgid를 바꿔주는 함수이다. 
@@ -96,7 +96,7 @@ int setpgid(pid_t pid, pid_t, pgid);
 
 프로세스 group들의 집합. 프로세스 그룹이 일종의 작업이면, 세션은 **작업 공간**이다. 
 
-setsid는 새로운 세션 아이디를 주는 명령어로, 새로운 sid와 pgid가 할당되어 실행된다. 기존 그룹에 속해있던 자식 프로세스가 새로운 세션을 만들어서 독립하기 위한 느낌으로 사용된다. 
+setsid는 새로운 세션 아이디를 주는 명령어로, 새로운 sid와 pgid가 할당되어 실행된다. 기존 그룹에 속해있던 자식 프로세스가 새로운 세션을 만들어서 독립하기 위해 사용된다. 
 
 ```c
 #include <unistd.h>
@@ -106,13 +106,14 @@ pid_t setsid(void);
 // 새로운 세션을 만드는 함수, group leader가 호출할 수 없다
 // returns process group-ID, -1 otherwise 
 ```
-
+<br/>
 호출한 프로세스가 그룹의 leader가 아닌 경우, **새로운 세션을 생성**한다.
 
 - 프로세스는 새로운 session leader가 된다
 - 프로세스는 새로운 그룹의 group leader가 된다
 - 프로세스는 controlling terminal이 없다 (독립된 deamon 프로세스가 됨)
 
+<br/>
 ex. ps 명령어로 pgid, sid 확인하기 
 
 `ps -o pid,ppid,pgid,sid,comm`  (추가적인 oflags를 부여)
