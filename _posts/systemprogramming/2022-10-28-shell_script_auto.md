@@ -56,7 +56,7 @@ sshpass -p password ssh -Y s20205108@cse.gist.ac.kr
 <br/>
 ### 실행 결과
 <br/>
-![image](https://user-images.githubusercontent.com/86834982/199553895-03b8e887-22da-48c8-88cf-8aa5d69f68bb.png){: width="90%" height="90%"}
+![image](https://user-images.githubusercontent.com/86834982/199553895-03b8e887-22da-48c8-88cf-8aa5d69f68bb.png){: width="550px"}
 <br/>
 학교 서버에 들어와진다 !! 😃
 
