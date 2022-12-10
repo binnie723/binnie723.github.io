@@ -14,7 +14,7 @@ last_modified_at: 2022-12-08
 ---
 
 <br/>
-Signal handler는 전달받은 시그널에 대해서 기본적인 default 동작이 아닌, 새로 등록한 함수의 동작을 수행하도록 하는 일종의 핸들러이다. 
+Signal handler는 전달받은 시그널에 대해서 기본적인 default 동작이 아닌, 새로 등록한 함수의 동작을 수행하도록 바꿔준다. 
 
 <br/>
 ### Installing Signal Handler : signal(3)
@@ -56,7 +56,7 @@ int main(num){
 }
 ```
 
-<br/>
+<br/><br/>
 ### Blocking/Unblocking Signals : sigprocmask(2)
 
 sigprocmask를 사용해서 특정 시그널을 완전히 blocking 시킬 수 있다. 
@@ -93,7 +93,7 @@ int sigdelset(sigset_t set, int signo); // 특정 sig 삭제
 int sigismember(const sigset_t *set, int signo);
 // returns 1 if true, 0 if false (포함되어 있는지 확인)
 ```
-<br/>
+<br/><br/>
 ### **Nested Handlers**
 
 하나의 signal handler가 수행되는 동안 다른 핸들러가 등록되어 중첩되어 실행될 수 있다. 핸들러도 프로그램 코드 안에서 실행되기 때문에 전역변수가 공유된다. 핸들러가 중첩되어 동시에 전역변수를 접근하게 되면 문제가 발생할 수 있다. 
