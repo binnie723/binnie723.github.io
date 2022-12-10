@@ -1,5 +1,5 @@
 ---
-title:  "Signals Handlers" 
+title:  "Signal Handlers" 
 
 categories:
   - System Programming
@@ -76,10 +76,10 @@ int sigprocmask(int how, const sigset_t *restrict set, sigset_t *restrict oset);
     
     *SIG_SETMASK* : 해당 set으로 mask를 초기화
     
-    `sigprocmask(SIG_SETMASK, &prev_mask, NULL);` : 이전 마스크로 초기화
+    ex. `sigprocmask(SIG_SETMASK, &prev_mask, NULL);` : 이전 마스크로 초기화
     
-
-**Signal sets** : 쉽게 mask를 조절하도록 도와주는 함수들. 자유롭게 set에 signal을 추가하고 삭제한 뒤, sigprocmask에 등록하면 훨씬 편리하다. 
+<br/>
+**Signal sets** : 쉽게 mask를 조절하도록 도와주는 함수로, 자유롭게 set에 signal을 추가하고 삭제할 수 있다.
 
 ```c
 #include <signal.h>
@@ -110,7 +110,7 @@ ex2. if문이 실행된 직후 interrupt signal이 발생하는 경우
 
 -> iFlag 값이 0이 아닌데도 if문이 실행되는 문제점이 발생할 수 있음 
 
-![image](https://user-images.githubusercontent.com/86834982/206746393-161d4c40-1845-4bd5-9028-4af358881694.png){: width="510px"}
+![image](https://user-images.githubusercontent.com/86834982/206746393-161d4c40-1845-4bd5-9028-4af358881694.png){: width="490px"}
 
 <br/>
 ### **Synchronization : sigsuspend(2)**
@@ -129,7 +129,46 @@ sigprocmask(SIG_SETMASK, &prev, NULL);
 <br/>
 ex. sigsuspend로 signal을 기다리는 예시
 
-![image](https://user-images.githubusercontent.com/86834982/206746395-8ac75be7-1c3f-482d-95af-305a1d01bad8.png){: width="500px"}
+![image](https://user-images.githubusercontent.com/86834982/206746395-8ac75be7-1c3f-482d-95af-305a1d01bad8.png){: width="490px"}
+
+
+<br/>
+### Nonlocal Jump : sigsetjmp(3), siglongjmp(3)
+
+비지역 점프(nonlocal jump)는 사용자가 의도적으로 만들어낸 exceptional control flow로, 강제로 코드를 다른 곳으로 보내고 돌아오게 한다. 
+
+-> C 에서는 longjmp와 setjmp 함수를 통해 비지역 점프를 수행한다. 
+
+<br/>
+ex1.  setjmp와 longjmp을 사용한 예시 
+
+한계점 : stack에 저장한 env가 남아있어야만 longjmp 수행이 가능하다. 
+
+![image](https://user-images.githubusercontent.com/86834982/206825228-5e67189e-16e8-4796-b0e4-c93c9ff2b40e.png){: width="550px"}
+
+ex2. signal에 대해서 setjmp와 longjmp를 사용한 예시 -> **문제 발생 !**
+
+signal handler는 핸들러가 수행되는 동안에는 해당 시그널을 block 처리하도록 구현되어 있다. 따라서 핸들러 안에서 longjmp가 실행된 경우, 핸들러가 정상적인 종료를 하지 못하고, 계속 block된 상태로 main 함수로 돌아가기 때문에 문제가 발생한다. 
+
+![image](https://user-images.githubusercontent.com/86834982/206825224-ef71f17b-28df-4b29-accf-e92683a3fb31.png){: width="550px"}
+
+<br/>
+ **sigsetjmp, siglongjmp** 
+
+위의 상황을 방지해서 setjmp, longjmp를 수행함과 동시에 blocking까지 풀어주는 함수
+
+```c
+#include <setjmp.h>
+
+int sigsetjmp(sigjmp_buf env, int savemask);
+int siglongjmp(sigjmp_buf env, int val);
+```
+<br/>
+ex. sigsetjmp, siglongjmp를 통해 보완한 예시 
+
+![image](https://user-images.githubusercontent.com/86834982/206825229-5b310655-ed19-4e90-aa09-b57795a9d879.png){: width="550px"}
+
+
 
 
 <br/><br/>
