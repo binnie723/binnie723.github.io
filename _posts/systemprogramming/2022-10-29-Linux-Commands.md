@@ -1,5 +1,5 @@
 ---
-title:  "Linux Commands" 
+title:  "[추가] Linux Commands" 
 
 categories:
   - System Programming
@@ -124,9 +124,9 @@ last_modified_at: 2022-10-26
 <br/>   
 ### Vim commands (mode)
 
-![image](https://user-images.githubusercontent.com/86834982/198948309-3885db44-5002-4376-be19-465272d423db.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198948309-3885db44-5002-4376-be19-465272d423db.png){: width="500px"}
 
-![image](https://user-images.githubusercontent.com/86834982/198948305-d9303a2d-d25d-42a1-86eb-6806c5c3ee8b.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198948305-d9303a2d-d25d-42a1-86eb-6806c5c3ee8b.png){: width="500px"}
    
 <br/><br/>
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
