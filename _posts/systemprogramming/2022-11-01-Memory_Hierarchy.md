@@ -1,5 +1,5 @@
 ---
-title:  "Memory Hierarchy" 
+title:  "[추가] Memory Hierarchy" 
 
 categories:
   - System Programming
@@ -13,16 +13,15 @@ date: 2022-11-01
 last_modified_at: 2022-11-01
 ---
 <br/> 
-컴퓨터 구조 안 듣고 시프 들으니까 너무 어려운게 많아서 잠깐 중간에 정리해두는 Memory Hierarchy..
+컴퓨터 구조 안 듣고 시프 들으니까 너무 어려운게 많아서 잠깐 중간에 정리해두는 Memory Hierarchy
 <br/> 
 <br/> 
 ## Program Execution Process
 메모리 계층 구조를 이해하기 전에 보면 좋은 프로그래밍 실행 과정   
-
 <br/> 
 컴퓨터 구조를 단순화하면 : **Processor**(CPU), **Main Memory**(RAM), **Disk**(HDD)  
 
-![image](https://user-images.githubusercontent.com/86834982/199549542-8a0edd5f-1f26-408e-9687-99401388029f.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/199549542-8a0edd5f-1f26-408e-9687-99401388029f.png){: width="500px"}
 
   
 
@@ -39,7 +38,7 @@ last_modified_at: 2022-11-01
 
 메모리 계층 구조는 크게 **Register**, **Cache**(L1, L2, L3), **Main Memory**, **Hard Disk**로 나뉜다.   
 
-![image](https://user-images.githubusercontent.com/86834982/199549605-6018d866-007c-4afe-a7e3-ac5b608cf986.png){: width="85%" height="85%"}
+![image](https://user-images.githubusercontent.com/86834982/199549605-6018d866-007c-4afe-a7e3-ac5b608cf986.png){: width="580px"}
 
 
 <br/> 
@@ -55,7 +54,7 @@ CPU 내부에 존재하며 **CPU가 현재 처리하는데 필요한 데이터**
 - CPU 자체적으로 데이터를 저장할 방법이 없어서, 메모리로 보내기 전에 임시로 저장
 
 <br/> 
-### Cache
+### Cache (SRAM)
 
 CPU 내부에 존재하며 레지스터 다음으로 빠른 메모리. 한 번 사용한 데이터를 다시 사용할 가능성이 높다는 데이터의 지역성을 이용해서, **CPU에서 자주 쓰일 것 같은 데이터**를 메인 메모리로부터 복사해서 저장해둔다. 
 
@@ -67,7 +66,7 @@ CPU 내부에 존재하며 레지스터 다음으로 빠른 메모리. 한 번 �
 - 주로 SRAM으로 구성된다
 
 <br/> 
-### Main Memory
+### Main Memory (DRAM)
 
 CPU 외부에 존재하며 **프로그램을 실행하는데 직접 사용되는 데이터**를 저장하는 주 기억장치. 일시적으로 저장하는 **휘발성 메모리**로 전원이 꺼지면 내용들은 사라진다. 모든 프로그램은 컴퓨터에 실행되기 위해 메모리의 일부를 차지한다. 
 
@@ -86,6 +85,7 @@ CPU 외부에 존재하며 **프로그램을 실행하는데 직접 사용되는
 대부분의 컴퓨터는 SSD, HDD 둘 다 사용하며, SSD가 HDD보다 상위에 위치해 있다.  용량이 작지만 자주 쓰이는 운영체제와 같은 프로그램은 SSD에, 용량이 크지만 작업이 자체는 단순해서 빠른 엑세스가 필요하지 않은 이미지, 영상 파일을 HDD에 저장되어 있다.
 
 
-<br/><br/>
+  
+<br/><br/><br/>
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
