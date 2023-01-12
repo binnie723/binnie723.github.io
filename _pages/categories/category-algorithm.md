@@ -1,7 +1,7 @@
 ---
-title: "Motiongraphic"
+title: "Algorithm"
 layout: archive
-permalink: categories/motion-graphic
+permalink: categories/algorithm
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories.['Motiongraphic'] %}
+{% assign posts = site.categories.['Algorithm'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
