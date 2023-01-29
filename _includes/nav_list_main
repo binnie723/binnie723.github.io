@@ -38,7 +38,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "AI Basic (Naver Bootcamp)" %}
-                <li><a href="/categories/ai-basic" class="">AI Basic (Naver Bootcamp) ({{category[1].size}})</a></li>
+                <li><a href="/categories/ai-basic" class="">AI Basic (Naver Boostcourse) ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
