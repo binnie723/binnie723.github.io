@@ -44,20 +44,21 @@
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "AI Deep Dive (혁펜하임)" %}
-                <li><a href="/categories/ai-deep-dive" class="">AI Deep Dive (혁펜하임) ({{category[1].size}})</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-          <ul>
-            {% for category in site.categories %}
               {% if category[0] == "AI Core Project" %}
                 <li><a href="/categories/ai-core-project" class="">AI-core project ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
-
           
+        <span class="nav__sub-title">Algorithm</span>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "Baekjoon" %}
+                <li><a href="/categories/baekjoon" class="">Baekjoon ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        
         <span class="nav__sub-title">Others</span>
           <ul>
             {% for category in site.categories %}
