@@ -1,7 +1,7 @@
 ---
-title: "AI Core Project"
+title: "Web Projects"
 layout: archive
-permalink: categories/ai-core-project
+permalink: categories/web-projects
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['AI Core Project'] %}
+{% assign posts = site.categories['Web Projects'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
