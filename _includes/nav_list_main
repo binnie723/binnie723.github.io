@@ -33,18 +33,27 @@
               {% endif %}
             {% endfor %}
           </ul>
-          
-        <span class="nav__sub-title">AI</span>
+        <span class="nav__sub-title">Programming</span>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "AI Basic (Naver Bootcamp)" %}
-                <li><a href="/categories/ai-basic" class="">Coaching Study 9기 <AI Basic>({{category[1].size}})</a></li>
+              {% if category[0] == "React/Javascript" %}
+                <li><a href="/categories/ai-basic" class="">React/Javascript({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "AI Core Project" %}
+              {% if category[0] == "Web Projects" %}
+                <li><a href="/categories/ai-basic" class="">Web Projects({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+
+          
+        <span class="nav__sub-title">AI</span>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "AI Core Projects" %}
                 <li><a href="/categories/ai-core-project" class="">AI-core project ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
@@ -54,7 +63,14 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Baekjoon" %}
-                <li><a href="/categories/baekjoon" class="">Baekjoon ({{category[1].size}})</a></li>
+                <li><a href="/categories/baekjoon" class="">Baekjoon({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "Algorithm Study" %}
+                <li><a href="/categories/baekjoon" class="">Algorithm Study ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
