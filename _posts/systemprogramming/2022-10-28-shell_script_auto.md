@@ -1,5 +1,5 @@
 ---
-title:  "[추가] 자동으로 서버에 접속하는 shell script 만들기" 
+title:  "자동으로 서버에 접속하는 shell script 만들기" 
 
 categories:
   - System Programming
