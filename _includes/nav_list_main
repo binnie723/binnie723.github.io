@@ -76,8 +76,8 @@
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "Algorithm study" %}
-                <li><a href="/categories/algorithm-study" class="">Algorithm Study ({{category[1].size}})</a></li>
+              {% if category[0] == "Algorithm Study" %}
+                <li><a href="/categories/algorithm-study" class="">Algorithm study ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
