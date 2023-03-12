@@ -21,8 +21,8 @@
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "System Programming" %}
-                <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
+              {% if category[0] == "Computer Systems" %}
+                <li><a href="/categories/computersystems" class="">Computer Systems ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -30,6 +30,13 @@
             {% for category in site.categories %}
               {% if category[0] == "Compilers" %}
                 <li><a href="/categories/compilers" class="">Compilers ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "System Programming" %}
+                <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -63,13 +70,13 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Baekjoon" %}
-                <li><a href="/categories/baekjoon" class="">Baekjoon({{category[1].size}})</a></li>
+                <li><a href="/categories/baekjoon" class="">Baekjoon ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "Algorithm Study" %}
+              {% if category[0] == "Algorithm study" %}
                 <li><a href="/categories/algorithm-study" class="">Algorithm Study ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
