@@ -60,6 +60,13 @@
         <span class="nav__sub-title">AI</span>
           <ul>
             {% for category in site.categories %}
+              {% if category[0] == "Deep Learning" %}
+                <li><a href="/categories/deep-learning" class="">Deep Learning ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul>
+            {% for category in site.categories %}
               {% if category[0] == "AI Core Projects" %}
                 <li><a href="/categories/ai-core-projects" class="">AI-core projects ({{category[1].size}})</a></li>
               {% endif %}
