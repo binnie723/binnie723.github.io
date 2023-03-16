@@ -53,7 +53,7 @@ last_modified_at: 2022-03-14
     여기서 중간에 있는 hidden layer의 수에 따라 신경망을 나눌 수 있다. 
     
     - Shallow neural network : 히든 레이어가 **3개보다 적은** 경우
-    - Deep neural network : 히든 레이어가 **3개 이상**인 경우
+    - Deep neural network : 히든 레이어가 **3개 이상**인 경우  
     
     이와 같은 레이어들을 한 층씩 쌓아나가면서 더 깊은 신경망을 구축할 수 있는데, 이는 더 복잡한 연산들을 가능하게 한다. 
     
