@@ -1,5 +1,5 @@
 ---
-title:  "자연어처리(NLP) 개념 소개" 
+title:  "자연어 처리(NLP) 개요" 
 
 categories:
   - AI Core Projects

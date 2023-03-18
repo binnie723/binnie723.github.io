@@ -1,5 +1,5 @@
 ---
-title:  "Deep Learning의 개요 및 적용" 
+title:  "Deep Learning 개요" 
 
 categories:
   - Deep Learning
