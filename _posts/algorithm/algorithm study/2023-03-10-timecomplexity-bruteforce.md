@@ -2,7 +2,7 @@
 title:  "시간 복잡도와 완전 탐색" 
 
 categories:
-  - Algorithm Study
+  - Algorithm concepts
 tags:
   - [algorithm, bruteforce]
 toc: true
