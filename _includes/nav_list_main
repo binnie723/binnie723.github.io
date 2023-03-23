@@ -22,7 +22,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Computer Systems" %}
-                <li><a href="/categories/computersystems" class="">Computer Systems ({{category[1].size}})</a></li>
+                <li><a href="/categories/computer-systems" class="">Computer Systems ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
