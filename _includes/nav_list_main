@@ -43,7 +43,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Computer Graphics" %}
-                <li><a href="/categories/graphics" class="">Computer Graphics ({{category[1].size}})</a></li>
+                <li><a href="/categories/graphics" class="">Graphics, Rendering ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
