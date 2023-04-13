@@ -70,7 +70,7 @@ test.c / test.s / test.o / a.out / objdump(-> disassembler)
 <br/> 
 ### Compiling Into Assembly
 
-`gcc -Og -S sum.c`  —> sum.s 파일 생성 
+`gcc -Og -S sum.c` \-> sum.s 파일 생성 
 
 - `-S` : 어셈블하는 단계에서 컴파일 과정을 stop하고 반환하라는 의미.
 - `-Og` : 코드를 최적화시켜주는 optimization flag. -> 없으면 코드가 매우 복잡해서 읽기 어려움.
@@ -88,7 +88,7 @@ test.c / test.s / test.o / a.out / objdump(-> disassembler)
     
     -> 현재 많은 컴퓨터 시스템에서 64 비트 아키텍쳐(데이터 타입)를 사용하기 때문
     
-
+<br/>
 터미널에서 C 코드를 어셈블리 파일로 변환한 내용은 다음과 같다. 
 
 ![image](https://user-images.githubusercontent.com/86834982/231742928-34269d5b-59d1-4292-923f-f569275c4ea4.png){: width="480px"}
@@ -138,7 +138,7 @@ test.c / test.s / test.o / a.out / objdump(-> disassembler)
 <br/> 
 ### Moving Data : movq
 
-***movq***   $**Source, Dest**$
+**movq**   $Source, Dest$
 
 movq 명령어는 소스 데이터(source)를 특정 목적지(destination)로 이동(복사)하는 명령어
 
@@ -166,21 +166,21 @@ movq 명령어는 소스 데이터(source)를 특정 목적지(destination)로 �
 
 ![image](https://user-images.githubusercontent.com/86834982/231743260-d09bafbf-0eae-41fa-bb0a-e02aaf1160a0.png){: width="480px"}
 
--> **memory-memory**로는 **이동할 수 없다!**
+-> **memory-memory**로는 **이동할 수 없다.** <br/>
+따라서 메모리-> 레지스터, 또는 레지스터-> 메모리로 나누어 이동해야 한다. 
 
-따라서 (메모리-레지스터) -> (레지스터-메모리)로 나누어 이동해야 한다. 
-
+<br/>
 ex. *movb*, *movw*, *movl*, *movq*로 값이 바뀌는 과정 
 
 먼저 moveabsq로 레지스터의 값을 초기화한다. 그리고 뒤에 movb, movw, movl, movq를 사용해서 레지스터의 값을 바꾸는 과정으로 나타낸다. 
 
 ![image](https://user-images.githubusercontent.com/86834982/231743367-ec816796-85a2-4c9a-bcd0-9e3c2fe0fa02.jpg){: width="480px"}
 
--> 여기서 -1(FF) 이렇게 각 byte수의 2배로 값이 들어가는 이유는 hexadecimal notation에 따라 4개의 bit씩 끊어서 변환되기 때문이다. 
+-> 여기서 $-1(FF)$ 이렇게 각 byte수의 2배로 값이 들어가는 이유는 hexadecimal notation에 따라 4개의 bit씩 끊어서 변환되기 때문이다. 
 
 기존 move 명령어는 source와 destination의 operand 사이즈를 맞추어 주어야 한다는 한계점이 있다. 그래서 이를 극복하기 위해서 남은 비트를 확장해서 채우는 매커니즘을 도입한 명령어가 다음과 같다. 
 
-- *movz* (zero extension) : 남은 destination bit를 0으로 채운다
+- *movz* (zero extension) : 남은 destination bit를 $0$으로 채운다
 - *movs* (sign extension) : 남은 destination bit를 sign bit으로 채운다
     
     -> 단, destination operand의 크기가 더 커야한다는 전제가 필요하다!
@@ -191,11 +191,11 @@ ex. *movb*, *movw*, *movl*, *movq*로 값이 바뀌는 과정
 
 데이터가 저장되는 장소를 memory로 한정 짓지 않고, 레지스터까지 넓게 보아서 레지스터내에 있는 데이터를 가르키는 방법까지 addressing mode라고 표현하고 있다.
 
-- **Normal** :  $**(R)$  $= Mem[Reg[R]]$**
+- **Normal** :  $(R)$  $= Mem[Reg[R]]$
     
     `movq (%rcx), %rax` : rcx에 저장된 (메모리 주소)에 있는 데이터를 rax로 옮김
     
-- **Displacement** :  $**D(R)$ $= Mem[Reg[R]+D]$**
+- **Displacement** :  $D(R)$ $= Mem[Reg[R]+D]$
     
     `movq 8(%rbp), %rdx` : rbp에 저장된 (메모리 주소+8)에 있는 데이터를 rdx로 옮김
     
@@ -211,8 +211,9 @@ $D(Rb, Ri, S)$ $= Mem[Reg[Rb] + S * Reg[Ri] + D]$
 
 - $D$ : displacement 이동시키는 상수
 - $Rb$ : base 레지스터 (16개의 정수 레지스터)
-- $Ri$ : index 레지스터 (%rsp를 제외한 레지스터)
+- $Ri$ : index 레지스터 (%rsp를 제외한 레지스터)  
 
+<br/>
 ex 1. 메모리 address 계산 문제 
 
 ![image](https://user-images.githubusercontent.com/86834982/231743473-6ad21466-d33b-48f7-9c56-961d1e7b1376.png){: width="480px"}
@@ -223,7 +224,7 @@ ex 2.  다음 코드에서 아래와 같이 element를 메모리 주소에 저�
 
 
 <br/> 
-<br/> 
+<br/>
 ## Arithmetic & logical operations
 
 ---
@@ -236,15 +237,16 @@ ex 2.  다음 코드에서 아래와 같이 element를 메모리 주소에 저�
 
 *Dest* : destination register (항상 register에 저장)
 
-lea 명령어는 load effective address의 줄임말로, 메모리 참조 없이 주소만을 가져와서 계산하고, 그 결과를 레지스터에 저장한다. 크게 두 가지를 수행하는데 :
+<br/>
+lea는 load effective address의 줄임말로, 메모리 참조 없이 주소만을 가져와서 계산하고, 그 결과를 레지스터에 저장한다. 크게 두 가지 목적으로 수행한다. :
 
 1. **& operation** : `p = &x[i]`
     
     주소 값을 가져와서/계산해서 저장
     
-2. **arithmetic operation** : `x*12` **(shift+add)** 
+2. **arithmetic operation** : `x*12` **(shift + add)** 
     
-    곱하기 연산을 shift+add 연산으로 최적화 
+    곱하기 연산을 shift + add 연산으로 최적화 
     
     ex. 예시는 다음과 같다. 
     
@@ -256,12 +258,12 @@ lea 명령어는 load effective address의 줄임말로, 메모리 참조 없이
     leaq (%rdi, %rdi, 2), %rax  # x*3
     salq $2, %rax   # (x*3) * 4 = x*12
     ```
-    
+    <br/>
     일반적인 곱하기 연산은 많은 logical gate를 필요로 하기 때문에 이렇게 add와 shift연산으로 바꾸어서 수행할 경우, **훨씬 효과적**으로 계산할 수 있다. 
     
     위와 같은 과정은 최적화의 일부에 해당되고, 컴파일 과정에서 자동으로 처리된다. 
     
-<br/> 
+<br/>   
 **movq vs. leaq**
 
 다음과 같이 각각의 명령어에 같은 instruction을 준다고 할 때,
@@ -270,7 +272,7 @@ lea 명령어는 load effective address의 줄임말로, 메모리 참조 없이
 movq (%rdi, %rdi, 2), %rax   # 3*rdi 주소가 가르키는 **value 저장** 
 leaq (%rdi, %rdi, 2), %rax   # 3*rdi **주소값 저장** 
 ```
-
+<br/>
 즉, movq는 데이터를 메모리에서 레지스터, 혹은 레지스터에서 메모리로 옮길 때 사용하고 leaq는 메모리 주소를 계산해서 레지스터에 저장할 때 사용한다.
 
 <br/> 
@@ -281,7 +283,7 @@ leaq (%rdi, %rdi, 2), %rax   # 3*rdi **주소값 저장**
     
     ![image](https://user-images.githubusercontent.com/86834982/231743669-97617bbe-bf15-4625-9c2f-4cd0c696bc5b.png){: width="480px"}
     
-    -> unsigned와 signed의 구분이 없다. bit-level에서 arithmetic operation이 이루어지기 때문에 같은 방식으로 계산된다. 
+    -> unsigned와 signed의 구분이 없다. bit-level에서 arithmetic operation이 이루어지기 때문에 같은 방식으로 계산
     
 - operand가 **1개**인 연산
     
