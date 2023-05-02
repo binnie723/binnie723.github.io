@@ -6,24 +6,16 @@ sidebar_main: true
 ---
 
 
+## Seung Bin Shin (신승빈)  
+<br/>
+→Hello, I am Seung Bin Shin, <br/>
+→who is interested in Frontend Engineer & UI/UX Design <br/>  
 
-
-
-💭 Hello,  <br/>
-
-→ I am Seung Bin Shin, who is interested in Frontend Engineer & UI/UX Design
-  
-
----
-### Profile
-
-💁🏻‍♀️→Seung Bin Shin (신승빈)
-
-💻→[Go to my Github](https://github.com/binnie723)→→🎨→[Go to my Artstudio](https://binnie723.myportfolio.com/)
+→💻→[Go to my Github](https://github.com/binnie723)→→🎨→[Go to my Artstudio](https://binnie723.myportfolio.com/)<br/>  
   
 
 ---      
-### Education
+### Education/Career
 >`2017 - 2019`→[HAFS](http://www.hafs.hs.kr/) - International 13th  
 >`2020 - 2024`→[GIST](https://www.gist.ac.kr/kr/main.html) - Electrical Engineering and Computer Science
 >
