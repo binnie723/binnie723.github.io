@@ -1,6 +1,6 @@
 ---
 layout: default
-title: about
+title: portfolio
 permalink: /portfolio
 description: 
 author_profile: false
