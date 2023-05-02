@@ -1,8 +1,7 @@
 ---
+title: "Portfolio"
 layout: default
-title: portfolio
-permalink: /portfolio
-description: 
+permalink: /portfolio/
 author_profile: false
 sidebar_main: false
 ---
