@@ -1,7 +1,7 @@
 ---
 layout: default
 title: about
-permalink: /
+permalink: /portfolio
 description: 
 author_profile: false
 sidebar_main: false
