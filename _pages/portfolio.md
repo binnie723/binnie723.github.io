@@ -1,6 +1,6 @@
 ---
 title: "Portfolio"
-layout: default
+layout: home
 permalink: /portfolio/
 author_profile: false
 sidebar_main: false
