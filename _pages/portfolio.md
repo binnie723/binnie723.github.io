@@ -16,6 +16,7 @@ who is interested in **Frontend Engineer & UI/UX Design**
 
 </aside>
 
+<br/>
 ### Profile
 
 💁🏻‍♀️ **Name** : Seung Bin Shin (신승빈)
@@ -25,19 +26,21 @@ who is interested in **Frontend Engineer & UI/UX Design**
 🎨 **BinStudio** : [https://binnie723.myportfolio.com/](https://binnie723.myportfolio.com/)
 
 ---
-
+<br/>
 ### Education
 
-> **HAFS**( [http://www.hafs.hs.kr/](http://www.hafs.hs.kr/)) International 13th, `2017.03~2020.02`
+> [HAFS](http://www.hafs.hs.kr/)  International 13th, `2017.03~2020.02`
 > 
 > 
-> **GIST**([https://www.gist.ac.kr/kr/main.html](https://www.gist.ac.kr/kr/main.html)) Electrical Engineering and Computer Science, `2020.03~`
+> [GIST](https://www.gist.ac.kr/kr/main.html)  Electrical Engineering and Computer Science, `2020.03~`
 > 
 
 ---
-
+<br/>
 ### Contact
 
-**📞 Phone** : 010-2334-7626
+📞 **Phone** : 010-2334-7626
 
 📩 **Email** : binnie723@gmail.com
+
+<br/><br/><br/>
