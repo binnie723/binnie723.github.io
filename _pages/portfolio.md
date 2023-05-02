@@ -4,8 +4,6 @@ permalink: /portfolio/
 author_profile: false
 sidebar_main: true
 ---
-
-
 ## Seung Bin Shin (신승빈)  
 <br/>
 →Hello, I am Seung Bin Shin, <br/>
@@ -15,7 +13,7 @@ sidebar_main: true
   
 
 ---      
-### Education/Career
+### Education
 >`2017 - 2019`→[HAFS](http://www.hafs.hs.kr/) - International 13th  
 >`2020 - 2024`→[GIST](https://www.gist.ac.kr/kr/main.html) - Electrical Engineering and Computer Science
 >
