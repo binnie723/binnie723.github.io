@@ -1,11 +1,13 @@
 ---
+title : ""
 layout: single
 permalink: /portfolio/
 author_profile: false
 sidebar_main: true
 ---
-### Seung Bin Shin (신승빈)
 <br/>
+## Seung Bin Shin (신승빈)  
+    
 →Hello, I am Seung Bin Shin, <br/>
 →who is interested in Frontend Engineer & UI/UX Design <br/>  
 
