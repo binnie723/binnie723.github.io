@@ -1,9 +1,9 @@
 ---
-title : ""
-layout: single
+title : 
+layout: collection
 permalink: /portfolio/
-author_profile: false
-sidebar_main: true
+author_profile: true
+sidebar_main: false
 ---
 ## Seung Bin Shin (신승빈)          
                      
