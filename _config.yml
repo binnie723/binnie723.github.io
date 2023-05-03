@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "승빈 Binnie Shin"
-  avatar           : "https://user-images.githubusercontent.com/86834982/235832399-7cfa4fca-6aab-4fbe-9d90-4c4b5a9eff97.jpg" #"/assets/images/avatar.jpg" 
+  avatar           : "/assets/images/avatar.jpg" 
   bio              : "  GIST EECS + AI"
   location         : "Seoul, South Korea"
   email            :
