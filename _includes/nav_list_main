@@ -14,15 +14,15 @@
         <span class="nav__sub-title">📖 Computer Science</span>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "Compilers" %}
-                <li><a href="/categories/compilers" class="">Programming Language and Compiler ({{category[1].size}})</a></li>
+              {% if category[0] == "System Programming" %}
+                <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "System Programming" %}
-                <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
+              {% if category[0] == "Compilers" %}
+                <li><a href="/categories/compilers" class="">Programming Language and Compiler ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
