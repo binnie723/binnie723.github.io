@@ -14,8 +14,8 @@
         <span class="nav__sub-title">📖 Computer Science</span>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "System Programming" %}
-                <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
+              {% if category[0] == "Computer Systems" %}
+                <li><a href="/categories/computer-systems" class="">Computer System Theory ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -28,8 +28,8 @@
           </ul>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "Computer Systems" %}
-                <li><a href="/categories/computer-systems" class="">Computer System Theory ({{category[1].size}})</a></li>
+              {% if category[0] == "System Programming" %}
+                <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
