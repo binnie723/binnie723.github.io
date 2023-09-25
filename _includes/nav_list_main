@@ -15,7 +15,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Computer Systems" %}
-                <li><a href="/categories/computer-systems" class="">Computer System Theory ({{category[1].size}})</a></li>
+                <li><a href="/categories/computer-systems" class="">Computer System ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -68,7 +68,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "AI Core Projects" %}
-                <li><a href="/categories/ai-core-projects" class="">AI core projects ({{category[1].size}})</a></li>
+                <li><a href="/categories/ai-core-projects" class="">AI core Projects ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
