@@ -47,7 +47,7 @@
               {% endif %}
             {% endfor %}
           </ul>
-        <span class="nav__sub-title">👩🏻‍💻 Programming</span>
+        <span class="nav__sub-title">💻 Programming</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "React/Javascript" %}
@@ -107,7 +107,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "My" %}
-                <li><a href="/categories/my" class="">My Daily Writings ({{category[1].size}})</a></li>
+                <li><a href="/categories/my" class="">My Writings ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
