@@ -1,5 +1,5 @@
 ---
-title:  "Machine Programming I : Basics" 
+title:  "Machine Programming Basics : Assembly" 
 
 categories:
   - Computer Systems
@@ -146,7 +146,7 @@ movq 명령어는 소스 데이터(source)를 특정 목적지(destination)로 �
 
 ![image](https://user-images.githubusercontent.com/86834982/231743251-081843ae-d750-4f0f-ab55-10db678ee9be.png){: width="480px"}
 
-6     *movabsq* : source는 항상 immediate, destination은 항상 register만 가능 
+.     *movabsq* : source는 항상 immediate, destination은 항상 register만 가능 
 
 <br/>   
 **Operand Combination**

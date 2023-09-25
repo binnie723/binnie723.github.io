@@ -20,7 +20,7 @@ last_modified_at: 2022-10-26
 
 - **compiler** : 특정 프로그래밍 언어로 작성된 코드를 기계어로 변환하는 프로그램
 
-![image](https://user-images.githubusercontent.com/86834982/198941134-9a03bb44-a033-4f7a-967f-3db34b505868.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941134-9a03bb44-a033-4f7a-967f-3db34b505868.png){: width="500px"}
 
 - compile 과정 :
     - **Preprocessor**  *cc **-E** hello.c > hello.i (Expanded source code)*
@@ -39,7 +39,7 @@ ex. `gcc` , `cc` 로 compile하는 전체 코드
 
 -> preprocessing, compilation, assembly, linking 수행 (실행 빼고 다 함)
 
-![image](https://user-images.githubusercontent.com/86834982/198941134-9a03bb44-a033-4f7a-967f-3db34b505868.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941134-9a03bb44-a033-4f7a-967f-3db34b505868.png){: width="500px"}
 
 ```bash
 # c code --> expanded source code
@@ -115,11 +115,11 @@ make 프로그램의 설정파일, LINUX에서 **반복적인 컴파일을 쉽�
 
 ex. Makefile 파일 예시 
 
-![image](https://user-images.githubusercontent.com/86834982/198941247-59a18e7f-7d52-4637-86de-7a6bd1f5c392.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941247-59a18e7f-7d52-4637-86de-7a6bd1f5c392.png){: width="500px"}
  <br/>   
 **Dependency tree**
 
-![image](https://user-images.githubusercontent.com/86834982/198941257-3807cf1e-6d6f-4c49-96ed-9aaa950b2af8.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941257-3807cf1e-6d6f-4c49-96ed-9aaa950b2af8.png){: width="500px"}
 
 - Makefile에 의해 생성된 **파일의 종속 관계**를 나타내는 그래프 → directed acyclic graph
 - **post-order traversal** : 아래쪽 leaf node에서 위쪽 root node으로 순차적 탐색
@@ -135,12 +135,12 @@ ex. Makefile 파일 예시
 - *${MACRO}, $(MACRO), $MACRO* : 참조할 때 앞에 $ 사용하기
 - `make -p` : 미리 정의된 macro를 확인하는 명령어
     
-    ![image](https://user-images.githubusercontent.com/86834982/198941375-690d7025-2e0c-4bf3-ac32-cffe427a49c0.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198941375-690d7025-2e0c-4bf3-ac32-cffe427a49c0.png){: width="500px"}
     
 
 ex. macro를 사용한 Makefile 예시 
 
-![image](https://user-images.githubusercontent.com/86834982/198941375-690d7025-2e0c-4bf3-ac32-cffe427a49c0.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941375-690d7025-2e0c-4bf3-ac32-cffe427a49c0.png){: width="500px"}
 
 
 <br/> 
@@ -148,7 +148,7 @@ ex. macro를 사용한 Makefile 예시
 
 Makefile 빌딩 과정에서 자주 재사용되는 것들을 기호로 지정, 쉘의 wild card와 유사한 기능
 
-![image](https://user-images.githubusercontent.com/86834982/198941660-e90977e6-717b-4c58-acff-a37999089424.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941660-e90977e6-717b-4c58-acff-a37999089424.png){: width="500px"}
 
 **Special Macro** 자동 문자
 
@@ -180,11 +180,11 @@ LINUX에서 제공하는 무료 GNU debugging 툴
 
 ex. *fact.c* : 초기값 0부터 펙토리얼을 계산하는 코드 (잘못된 코드)
 
-![image](https://user-images.githubusercontent.com/86834982/198941666-fc836f01-5410-4c4f-bf6e-185fc3f1bf5b.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941666-fc836f01-5410-4c4f-bf6e-185fc3f1bf5b.png){: width="500px"}
 
 -> `gdb`를 사용해서 버그 찾기  
 
-![image](https://user-images.githubusercontent.com/86834982/198941670-cdbb8881-6d67-411e-b7bb-326c2ce4714d.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941670-cdbb8881-6d67-411e-b7bb-326c2ce4714d.png){: width="500px"}
 
 <br/> 
 ### screen(1)
@@ -193,7 +193,7 @@ ex. *fact.c* : 초기값 0부터 펙토리얼을 계산하는 코드 (잘못된 
 
 -> 화면 분할 및 공동 작업 가능, connection loss 되어도 다시 재개 가능
 
-![image](https://user-images.githubusercontent.com/86834982/198941752-a15c55f2-5353-4aa9-9e9b-5e9806cf3c95.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941752-a15c55f2-5353-4aa9-9e9b-5e9806cf3c95.png){: width="500px"}
 
 ```bash
 screen           # screen 세션 생성
@@ -211,7 +211,7 @@ exit             # screen 세션 종료하고 빠져 나가기
 
 ex. `diff` 로 *MatrixAdd.c* *MatrixAdd_yourfriend.c* 파일 비교
 
-![image](https://user-images.githubusercontent.com/86834982/198941759-60a7821b-bf3e-4b06-a61f-7335933d9644.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941759-60a7821b-bf3e-4b06-a61f-7335933d9644.png){: width="500px"}
 
 다음과 같이 diff 결과를 patch 파일로 저장할 수 있다. (redirection 사용)
 
@@ -224,7 +224,7 @@ diff -u MatrixAdd.c MatrixAdd_yourfriend.c > diff.patch
 
 diff로 생성한 **패치 파일을 적용**하거나 **적용했던 패치를 제거** 
 
-![image](https://user-images.githubusercontent.com/86834982/198941828-844d81f4-8edc-40d8-b6af-2c34d15b3d36.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198941828-844d81f4-8edc-40d8-b6af-2c34d15b3d36.png){: width="500px"}
 
 ex. `patch` 명령어로 패치 파일을 적용하고 제거하는 코드 
 

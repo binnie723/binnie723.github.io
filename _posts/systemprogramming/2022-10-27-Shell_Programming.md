@@ -39,7 +39,7 @@ last_modified_at: 2022-10-30
     ex. bash, source, ./ 명령어의 차이점
     
 
-![image](https://user-images.githubusercontent.com/86834982/198943718-e0720717-08dc-42ae-8aea-15a5e801e5fd.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198943718-e0720717-08dc-42ae-8aea-15a5e801e5fd.png){: width="500px"}
 
 - 간단한 Shell Script 실행 : Hello World! 출력하기
     
@@ -121,7 +121,7 @@ read -a arr
 
   ex. 각 quotation별 결과 확인 
 
-![image](https://user-images.githubusercontent.com/86834982/198943733-fc8f9d28-a261-4dec-96b3-2892dddb441a.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198943733-fc8f9d28-a261-4dec-96b3-2892dddb441a.png){: width="500px"}
 
 <br/> 
 ### Boolean, Arithmetic Operations
@@ -264,7 +264,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     <br/>
     ex. for 문으로 array와 list의 element를 하나씩 불러와서 출력 
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944440-0094da46-b807-48cd-befc-9f224efb25e1.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944440-0094da46-b807-48cd-befc-9f224efb25e1.png){: width="500px"}
     
 
 - **while 반복문** 사용하기
@@ -279,7 +279,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     
     ex. 입력받은 파일을 while read line로 한 줄씩 불러와서 출력 
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944443-b7e2a112-f243-419f-af79-f7dab0b7c847.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944443-b7e2a112-f243-419f-af79-f7dab0b7c847.png){: width="500px"}
     
 
 - **until 반복문** 사용하기
@@ -301,16 +301,16 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     
     ex.  4, 5, 6을 입력하고 shift 1을 실행시킨 결과 
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944450-cce4798f-0735-4e05-b023-6dbcbd38c1b6.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944450-cce4798f-0735-4e05-b023-6dbcbd38c1b6.png){: width="500px"}
     
 
 - **break문** : iteration을 멈추고 나가는 구문 
 
-![image](https://user-images.githubusercontent.com/86834982/198944529-c93cd415-0a99-43df-b70b-cc209f674d8c.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198944529-c93cd415-0a99-43df-b70b-cc209f674d8c.png){: width="500px"}
 
 - **continue문** : 다음 iteration으로 이동하는 구문
 
-![image](https://user-images.githubusercontent.com/86834982/198944529-c93cd415-0a99-43df-b70b-cc209f674d8c.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198944529-c93cd415-0a99-43df-b70b-cc209f674d8c.png){: width="500px"}
 
     break문 : 조건문 완전히 탈출 
 
@@ -341,7 +341,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
     
     ex.  case문 : 사용자로부터 입력 받은 이름이 올바른지 확인하는 예제
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944649-8f3efd6b-0cbb-4279-81f5-a8eaec0f9f4d.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944649-8f3efd6b-0cbb-4279-81f5-a8eaec0f9f4d.png){: width="500px"}
     
 
 - **select 조건문** 사용하기
@@ -360,7 +360,7 @@ num13=$(expr $num1 + $num2) # 3 (띄어쓰기 중요)
 <br/>
     ex.  select 문 : 사용자가 선택한 파일을 private 파일로 권한 변경 
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944656-c059b324-eaab-4274-89cf-b9716ee110a7.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944656-c059b324-eaab-4274-89cf-b9716ee110a7.png){: width="500px"}
     
 
 <br/> 
@@ -385,7 +385,7 @@ function_name () {         # keyword 대신 bracket 사용하는 경우
     
     ex. 함수에 multiple argument를 입력해서 실행하는 예제
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944761-da0fbc37-4029-463a-b73e-ededd0ab16eb.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944761-da0fbc37-4029-463a-b73e-ededd0ab16eb.png){: width="500px"}
     
 <br/>
 - **함수 return 값 반환하기** : `**return** [n]` (n : 0-255)
@@ -394,7 +394,7 @@ function_name () {         # keyword 대신 bracket 사용하는 경우
     
     ex.  함수에서 **$?** 를 사용해서 multiple return을 받아올 때 
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944683-9ad135ee-1f8a-439b-b019-31b33fcbe935.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944683-9ad135ee-1f8a-439b-b019-31b33fcbe935.png){: width="500px"}
     
 <br/>
 - **Recursion** **재귀 함수** : **자기 자신을 호출**하는 경우 (no limit)
@@ -405,7 +405,7 @@ function_name () {         # keyword 대신 bracket 사용하는 경우
     
     ex. recursion 종료 조건의 필요성 
     
-    ![image](https://user-images.githubusercontent.com/86834982/198944822-98707b79-4e0f-40a0-9e20-bbe79bbd933e.png){: width="80%" height="80%"}
+    ![image](https://user-images.githubusercontent.com/86834982/198944822-98707b79-4e0f-40a0-9e20-bbe79bbd933e.png){: width="500px"}
     
 <br/> 
 ### Handling Signals : Trap
@@ -430,11 +430,11 @@ UNIX에서 특정 signal을 통해 프로세스를 멈추게 하는 것이 가�
 
 ex.  trap을 설정하고 signal을 부여했을 때 나타나는 결과 
 
-![image](https://user-images.githubusercontent.com/86834982/198944845-fd7cb543-ab96-4878-a941-49a7f3080431.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198944845-fd7cb543-ab96-4878-a941-49a7f3080431.png){: width="500px"}
 
 ->  다른 터미널에서 signal을 발생시킨 결과 : **terminate 하지 않음** 
 
-![image](https://user-images.githubusercontent.com/86834982/198944847-6581dacc-0506-4393-98fb-a3752a5284ac.png){: width="80%" height="80%"}
+![image](https://user-images.githubusercontent.com/86834982/198944847-6581dacc-0506-4393-98fb-a3752a5284ac.png){: width="500px"}
 
 <br/> 
 ### Debugging Shell Script
