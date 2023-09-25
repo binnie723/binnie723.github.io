@@ -14,15 +14,8 @@
         <span class="nav__sub-title">📖 Computer Science</span>
           <ul>
             {% for category in site.categories %}
-              {% if category[0] == "Computer Systems" %}
-                <li><a href="/categories/computer-systems" class="">Computer System Theory ({{category[1].size}})</a></li>
-              {% endif %}
-            {% endfor %}
-          </ul>
-          <ul>
-            {% for category in site.categories %}
               {% if category[0] == "Compilers" %}
-                <li><a href="/categories/compilers" class="">Language and Compilers ({{category[1].size}})</a></li>
+                <li><a href="/categories/compilers" class="">Programming Language and Compiler ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -30,6 +23,13 @@
             {% for category in site.categories %}
               {% if category[0] == "System Programming" %}
                 <li><a href="/categories/systemprogramming" class="">System Programming ({{category[1].size}})</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          <ul>
+            {% for category in site.categories %}
+              {% if category[0] == "Computer Systems" %}
+                <li><a href="/categories/computer-systems" class="">Computer System Theory ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
