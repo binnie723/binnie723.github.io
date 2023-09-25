@@ -1,5 +1,5 @@
 ---
-title:  "Machine Programming Basics : Assembly" 
+title:  "Machine-level 프로그래밍 : Basic Assembly" 
 
 categories:
   - Computer Systems
@@ -289,7 +289,7 @@ leaq (%rdi, %rdi, 2), %rax   # 3*rdi **주소값 저장**
     
     ![image](https://user-images.githubusercontent.com/86834982/231743919-8fd00204-ebb8-408b-bf11-f8924130495f.png){: width="480px"}
     
-    더 자세한 부분들은 교과서를 참고하면 됨 ~
+    더 자세한 부분들은 교과서를 참고하면 설명이 매우 잘 되어 있다.  
     
 
 <br/>  

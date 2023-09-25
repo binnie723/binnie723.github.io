@@ -1,5 +1,5 @@
 ---
-title:  "Bits, Bytes, and Integers" 
+title:  "Bits, Bytes, and Integers의 표현" 
 
 categories:
   - Computer Systems

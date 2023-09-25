@@ -1,5 +1,5 @@
 ---
-title:  "Floating Point" 
+title:  "Floating Point, 부동소수점의 표현" 
 
 categories:
   - Computer Systems
