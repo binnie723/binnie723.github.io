@@ -11,7 +11,7 @@
         <span style="font-family:'Cafe24Oneprettynight';">   </style> 
       </li>
       <li>
-        <span class="nav__sub-title">Computer Science</span>
+        <span class="nav__sub-title">📖 Computer Science</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Computer Systems" %}
@@ -47,7 +47,7 @@
               {% endif %}
             {% endfor %}
           </ul>
-        <span class="nav__sub-title">Programming</span>
+        <span class="nav__sub-title">👩🏻‍💻 Programming</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "React/Javascript" %}
@@ -64,7 +64,7 @@
           </ul>
 
           
-        <span class="nav__sub-title">ML/DL</span>
+        <span class="nav__sub-title">🤖 ML/DL</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Deep Learning" %}
@@ -80,7 +80,7 @@
             {% endfor %}
           </ul>
           
-        <span class="nav__sub-title">Algorithm</span>
+        <span class="nav__sub-title">📌 Algorithm</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Baekjoon" %}
@@ -96,7 +96,7 @@
             {% endfor %}
           </ul>
         
-        <span class="nav__sub-title">Others</span>
+        <span class="nav__sub-title">💬 Others</span>
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Blog" %}
