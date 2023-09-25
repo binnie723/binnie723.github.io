@@ -51,7 +51,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "Aani Roommate Project" %}
-                <li><a href="/categories/roommate" class="">Aani Roommate Project ({{category[1].size}})</a></li>
+                <li><a href="/categories/roommate" class="">Aani Roommate project ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
@@ -68,7 +68,7 @@
           <ul>
             {% for category in site.categories %}
               {% if category[0] == "AI Core Projects" %}
-                <li><a href="/categories/ai-core-projects" class="">AI core Projects ({{category[1].size}})</a></li>
+                <li><a href="/categories/ai-core-projects" class="">AI core projects ({{category[1].size}})</a></li>
               {% endif %}
             {% endfor %}
           </ul>
