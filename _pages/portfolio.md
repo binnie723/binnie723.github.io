@@ -15,8 +15,8 @@ sidebar_main: false
 
 ---      
 ### Education
-`2017 - 2019`→ [Hankuk Academy of Foreign Studies](http://www.hafs.hs.kr/) _ International 13th  
-`2020 - 2024`→ [Gwangju Institute of Science and Technology](https://www.gist.ac.kr/kr/main.html) _ Electrical Engineering and Computer Science  
+`2017 - 2019`→ [Hankuk Academy of Foreign Studies (HAFS)](http://www.hafs.hs.kr/) _ International 13th  
+`2020 - 2024`→ [Gwangju Institute of Science and Technology (GIST)](https://www.gist.ac.kr/kr/main.html) _ Electrical Engineering and Computer Science  
 <br/>
   
 ---

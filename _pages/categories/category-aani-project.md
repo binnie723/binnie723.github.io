@@ -1,7 +1,7 @@
 ---
-title: "Web Projects"
+title: "Aani Roommate Project"
 layout: archive
-permalink: categories/web-projects
+permalink: categories/roommate
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ***
 
-{% assign posts = site.categories['Web Projects'] %}
+{% assign posts = site.categories['Aani Roommate Project'] %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
