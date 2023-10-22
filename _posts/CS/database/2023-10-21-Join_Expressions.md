@@ -20,20 +20,16 @@ Chapter 4는 더 복잡한 형태의 SQL query 구문과 그 형식들을 다루
 <br/>  
 ## Join Expressions
 
-SQL에 결과를 요청할 때 두 개 이상의 다른 table을 모두 참조해야 하는 경우, join 연산을 사용해서 테이블을 합칠 수 있다. join 연산을 위해서는 **join type**과 **join condition**을 지정해주어야 한다. 
+두 개 이상의 relation을 묶어서 새로운 하나의 relation을 만든다. join을 하기 위해서는 **join type**과 **join condition**을 지정해주어야 한다. 
 
 ![ image](https://github.com/binnie723/binnie723.github.io/assets/86834982/46e87585-cf58-4b4e-bccd-3f07eb052897){: width="500px"} 
 <br/>
-**Join**은 두 table 간에 공통된 attribute 하에 결합시키기 때문에 Cartesian Product와 유사하다. From 구문의 subquery로써 사용된다.
+**Join**은 relation에서 공통된 attribute을 기준으로 결합시키기 때문에 Cartesian Product와 유사하다. From 구문의 subquery로 사용된다.
   
 **Join**종류는 다음과 같이 나눌 수 있다. 
-- **Natural join/Inner join**
+- **Inner join**
 - **Outer join** (Left, Right, Full)
 
-<br/>
-(참고) 아래는 교과서에서 예시로 자주 사용하는 *student*, *takes* 테이블 
-
-![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/343585fd-9e91-44c9-b558-b8dc5784559b){: width="500px"} 
 
 <br/>
 <br/>
@@ -61,10 +57,15 @@ select *
 from student
 natural join takes;
 ```
+<br/>  
+두 query의 결과는 위와 같다. 항목의 이름이 같다면, Natural join을 사용하는 편이 좋다! 
+<br/>  
+(참고) *student* 학생 테이블, *takes* 학생이 들은 과목 테이블
+
+![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/343585fd-9e91-44c9-b558-b8dc5784559b){: width="500px"} 
 
 ![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/647d7087-b3a9-411b-9480-1b0d4316fb71){: width="500px"} 
 
-두 query의 결과는 위와 같다. 항목의 이름이 같다면, Natural join을 사용하는 편이 좋다! 
 
 <br/>
 <br/>
