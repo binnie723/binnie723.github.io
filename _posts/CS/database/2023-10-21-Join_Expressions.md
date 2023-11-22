@@ -26,7 +26,7 @@ Chapter 4는 더 복잡한 형태의 SQL query 구문과 그 형식들을 다루
 <br/>
 **Join**은 relation에서 공통된 attribute을 기준으로 결합시키기 때문에 Cartesian Product와 유사하다. From 구문의 subquery로 사용된다.
   
-**Join**종류는 다음과 같이 나눌 수 있다. 
+**Join** 종류는 다음과 같이 나눌 수 있다. 
 - **Inner join**
 - **Outer join** (Left, Right, Full)
 
@@ -35,7 +35,7 @@ Chapter 4는 더 복잡한 형태의 SQL query 구문과 그 형식들을 다루
 <br/>
 ### **Natural Join**
 
-Natural join은 **같은 이름의 attribute**를 가진 두 칼럼을 자동적으로 결합해준다. 
+Natural join은 **같은 이름의 attribute**을 기준으로 가진 같은 값들을 가진 칼럼들을 묶어서 새로운 relation을 만든다.
 
 > **select**  *A1, A2, … An*
 **from**  *r1* **natural join** *r2* **natural join** .. **natural join** *rn*
@@ -62,9 +62,11 @@ natural join takes;
 <br/>  
 (참고) *student* 학생 테이블, *takes* 학생이 들은 과목 테이블
 
-![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/343585fd-9e91-44c9-b558-b8dc5784559b){: width="500px"} 
+![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/343585fd-9e91-44c9-b558-b8dc5784559b){: width="500px"}   
 
-![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/647d7087-b3a9-411b-9480-1b0d4316fb71){: width="500px"} 
+(참고) 그리고 Natural join을 수행한 결과 테이블   
+
+![image](https://github.com/binnie723/binnie723.github.io/assets/86834982/647d7087-b3a9-411b-9480-1b0d4316fb71){: width="500px"}   
 
 
 <br/>
