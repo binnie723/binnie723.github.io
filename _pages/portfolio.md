@@ -16,15 +16,14 @@ sidebar_main: false
 ---      
 ### Education
 `2017 - 2019`→ [Hankuk Academy of Foreign Studies (HAFS)](http://www.hafs.hs.kr/) _ International 13th  
-`2020 - 2024`→ [Gwangju Institute of Science and Technology (GIST)](https://www.gist.ac.kr/kr/main.html) _ Electrical Engineering and Computer Science  
+`2020 - 2024`→ [Gwangju Institute of Science and Technology (GIST)](https://www.gist.ac.kr/kr/main.html) _ Electrical Engineering and Computer Science & AI  
 <br/>
   
 ---
 ### Activities
 `2021-2023`→ [Google Developer Student Clubs GIST](https://gdsc.community.dev/gwangju-institute-of-science-and-technology/) _ 1st Member & 2nd Core  
-`2022.07-12` [GIST HCIS Lab](https://sites.google.com/view/gist-hcis-lab) _ G-surf Research Program        
-`2023.07-8`→ [Mediheal Hospital](https://www.mediheal.co.kr/) _ Data Analyst Internship    
-`2023.09-12`→ [GIST Art Tech Lab](https://www.songeunsung.com/) _ Undergraduate Thesis Research     
+`2022.07-12`→[GIST HCIS Lab](https://sites.google.com/view/gist-hcis-lab) _ G-surf Research Program        
+`2023.07-8`→ [Mediheal Hospital](https://www.mediheal.co.kr/) _ Data Analyst Internship       
 `2024.01 ~`→ [Woori Finance Research Institute](https://www.wfri.re.kr/ko/web/main.php) _ Research Intern            
 <br/>
   
