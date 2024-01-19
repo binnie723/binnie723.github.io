@@ -22,9 +22,10 @@ sidebar_main: false
 ---
 ### Activities
 `2021-2023`→ [Google Developer Student Clubs GIST](https://gdsc.community.dev/gwangju-institute-of-science-and-technology/) _ 1st Member & 2nd Core  
+`2022.07-12` [GIST HCIS Lab](https://sites.google.com/view/gist-hcis-lab) _ G-surf Research Program        
 `2023.07-8`→ [Mediheal Hospital](https://www.mediheal.co.kr/) _ Data Analyst Internship    
-`2023.09-12`→ [GIST Art Tech Lab](https://www.songeunsung.com/) _ Undergraduate Thesis Research 
-`2024.01 ~`→ [Woori Finance Research Institute](https://www.wfri.re.kr/ko/web/main.php) _ Research Intern          
+`2023.09-12`→ [GIST Art Tech Lab](https://www.songeunsung.com/) _ Undergraduate Thesis Research     
+`2024.01 ~`→ [Woori Finance Research Institute](https://www.wfri.re.kr/ko/web/main.php) _ Research Intern            
 <br/>
   
 ---
