@@ -8,9 +8,9 @@ sidebar_main: false
 ## Seung Bin Shin (신승빈)          
                      
 →Hello, I am Seung Bin Shin, <br/>
-→who is interested in Human Computer Interaction and Media Art Technology
+→who is interested in Digital Finance and Human Computer Interaction
 
-→💻→[Go to my Github](https://github.com/binnie723)→→🎨→[Go to my Artstudio](https://binnie723.myportfolio.com/)  
+→💻→[Go to my Github](https://github.com/binnie723)→→🎨→[Go to my Studio](https://binnie723.myportfolio.com/)  
 <br/>
 
 ---      
@@ -23,7 +23,8 @@ sidebar_main: false
 ### Activities
 `2021-2023`→ [Google Developer Student Clubs GIST](https://gdsc.community.dev/gwangju-institute-of-science-and-technology/) _ 1st Member & 2nd Core  
 `2023.07-8`→ [Mediheal Hospital](https://www.mediheal.co.kr/) _ Data Analyst Internship    
-`2023.09 ~`→ [GIST Art Tech Lab](https://www.songeunsung.com/) _ Undergraduate Thesis Research      
+`2023.09-12`→ [GIST Art Tech Lab](https://www.songeunsung.com/) _ Undergraduate Thesis Research 
+`2024.01 ~`→ [Woori Finance Research Institute](https://www.wfri.re.kr/ko/web/main.php) _ Research Intern          
 <br/>
   
 ---
